@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+    .test {
+        font-size:16px;
+        background-color: blue;
+        color: #fff;
+        border-radius: 6px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-left: 45%;
+    }
+    .test:hover {
+        font-size:13px;
+        color: black;
+    background-color:lightgray;
+    }
+    </style>
+</head>
+<body style="font-size: 13px;">
+    <main class="container">
+        <section class="row">
+            <section class="col-md-4 col-md-offset-4">
+            <p class="btn btn-primary btn-lg" style="font-size: 13px;">Problèmes de connexion ? Consultez cette page d’aide.</p>
+            <br />
+            <br />
+            <p>Inscrivez-vous pour continuer</p>
+            <img src="https://static.adobelogin.com/clients/download_experience-design/4x_4194d18d2c52854d8e92d3c244a25b9f.png" alt="Adobe Exprience" style="width:70px;height:40px;" class="col-md-3 col-md-offset-0 img-responsive">
+            <h1  class="col-md-12 col-md-offset-0" style="font-size: 2em;">Télécharger Experience Design (Beta)</h1>
+            <form action="#">
+                <div class="form-group">
+                <input class="col-md-12 col-md-offset-0 form-control" type="text" id="1E" name="1E" placeholder="Adresse e-mail">
+                <input class="col-md-12 col-md-offset-0 form-control" type="password" id="2MDP" name="2MDP" placeholder="Mot de passe">
+                <label for="lineConnect">Rester connecté</label>
+                <div class="checkbox">
+                    <input type="checkbox">
+                </div>
+                <a href="#" title="Vous avez perdus votre mot de passe ?">Mot de passe oublié ? </a>
+                <button type="submit" name="login" class="label label-primary btn btn-default" style="font-size: 16px">Se connecter</button>
+                </div>
+            </form>
+            <p>Pas encore membre ? <a href="#" title="Pourquoi pas vous inscrire ?">Obtenir un Adobe ID</a></p>
+            <p>Voulez-vous utiliser le compte de votre société ou le compte dont vous vous servez à l’école ? </p>
+            <a href="#" title="Id entreprise" >Se connecter avec un Enterprise ID</a>   
+        </section>
+        </section>      
+    </main> 
+    <button class=test>Se connecter</button>
+</body>
+</html>
