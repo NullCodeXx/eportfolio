@@ -8,9 +8,10 @@
     font-family: "Century Gothic", Helvetica, Arial, sans-serif;
 }
 
-#section-header {
+#header-section {
     height: 20vh;
     width: 100%;
+    padding: 5px;
     background-color: #303030;
     /* background-color: #1c1c1c; dark foncer*/
     /* background-color: #ecf0f1; cloud*/
@@ -19,21 +20,41 @@
     align-items: center;
 }
 
+.header-section-div {
+    height: 80%;
+    width: 80%;
+    margin-left: -20%;
+}
+
+.header-section-div-ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #logo-user-header {
-    height: 2vh;
-    width: 20px;
+    height: 5vh;
+    width: 40px;
 }
 
 #photo-djaafar-header {
-    height: 5vh;
-    width: 30px;
+    height: 15vh;
+    width: 30%;
     border-radius: 100%;
 }
 
 .h1-header {
-    color: #fff;
+    color: rgb(255, 255, 255);
+    /* margin-left: -80%; */
 }
 
 .p-header {
     color: #fff;
+    margin-left: -150%;
+    margin-top: 30%;
+}
+
+.li-test {
+    background-color: red;
 }
