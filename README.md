@@ -1,2 +1,7 @@
 # eportfolio
-Le ePortfolio (ou e-Portfolio, i-portfolio, portfolio numérique, portfolio électronique) est un ensemble de preuves de compétences, sous forme numérique et généralement sur le web, résultant d'une démarche consistant à réfléchir sur ses projets (sociaux, professionnels) et définir quelles parties de ces projets communiquer à quels publics, et de quelles façons. Cette démarche peut être utilisée par les professionnels, les enseignants, les élèves, les parents ou autres personnes engagées dans une démarche de formation tout au long de la vie, dans le but de communiquer sur son profil ou garder des traces d'apprentissages.
+
+Je vous présente mon Portfolio qui représente 7 mois intensif avec Simplon.co situer à Lyon, des projets ne sont pas encore termniné car pas assez de temps pour les bichoners, je vous invite à jeter un oeil d'une part en tant que client et d'autre part en tant developper (plongez dans le code source :) ) !
+
+Retrouvez moi sur Github : https://github.com/djaafarcode
+
+
