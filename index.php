@@ -13,16 +13,7 @@
 
 <body>
     <header>
-        <section id="header-section">
-            <div class="header-section-div">
-                <ul class="header-section-div-ul"> 
-                    <li><img src="./content/logos/user.svg" alt="Logo user man" id="logo-user-header"></li>
-                    <li><img src="https://media-private.canva.com/MACfFWHgXtM/1/screen.jpg?response-expires=Mon%2C%2004%20Sep%202017%2017%3A07%3A55%20GMT&AWSAccessKeyId=AKIAJWF6QO3UH4PAAJ6Q&Expires=1504544875&Signature=1z6WAUrkcfpHLtDccjilrzAm3oE%3D" alt="Photo de Djaâfar BOUMAZA" id="photo-djaafar-header"></li>
-                    <li class="li-test"><h1 class="h1-header">Djaâfar BOUMAZA</h1></li>
-                    <li><p class="p-header">Développeur Web junior full stack</p></li>    
-                </ul>
-            </div>
-        </section>
+        
     </header>
 </body>
 
