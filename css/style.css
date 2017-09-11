@@ -1,34 +1,133 @@
-.red {
-    height: 15vh;
-    background-color: red;
+/* FONT-FACE */
+
+@font-face {
+    src: url("content/fontface/Pacifico.ttf");
+    font-family: "Pacifico.ttf";
+}
+
+
+/* HEADER */
+
+.bloc-header {
+    background-color: #282e33;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo-profile {
+    width: 10%;
+    height: 50%;
+    display: flex;
+}
+
+.photo-lien {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#photo-profile {
+    width: 80%;
+    height: 80%;
+    border-radius: 100%;
+    display: flex;
+}
+
+.name {
+    color: #fff;
+    font-size: 2em;
+    letter-spacing: 4px;
+    font-weight: 900;
+    font-family: "Pacifico.ttf";
+    text-shadow: 1px 1px 1px #000;
+}
+
+.functionJob {
+    color: #fff;
+    font-size: 1em;
+    top: 10px;
+    letter-spacing: 3px;
+    margin-top: 8%;
+    margin-left: -10%;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.bloc-header-logo {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logos-reseaux1 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+
+#logos-reseaux2 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+
+#logos-reseaux3 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+}
+
+#logos-reseaux4 {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    border-radius: 100%
+}
+
+#logos-reseaux5 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+}
+
+
+/* FIN HEADER */
+
+.minightBlue {
+    height: 105px;
+    background-color: #2c3e50;
 }
 
 .blue {
-    height: 15vh;
+    height: 100%;
     background-color: blue;
 }
 
 .green {
-    height: 15vh;
+    height: 100%;
     background-color: green;
 }
 
 .black {
-    height: 15vh;
+    height: 100%;
     background-color: black;
 }
 
 .yellow {
-    height: 15vh;
+    height: 100%;
     background-color: yellow;
 }
 
 .pink {
-    height: 15vh;
+    height: 100%;
     background-color: pink;
 }
 
 .lime {
-    height: 15vh;
+    height: 100%;
     background-color: lime;
 }
