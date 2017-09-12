@@ -75,10 +75,24 @@ body {
     display: flex;
 }
 
+#logos-reseaux1:hover {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    filter: saturate(200%);
+}
+
 #logos-reseaux2 {
     width: 70%;
     height: 100%;
     display: flex;
+}
+
+#logos-reseaux2:hover {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    filter: saturate(200%);
 }
 
 #logos-reseaux3 {
@@ -87,17 +101,39 @@ body {
     display: flex;
 }
 
+#logos-reseaux3:hover {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    filter: saturate(200%);
+}
+
 #logos-reseaux4 {
     width: 70%;
     height: 100%;
     display: flex;
-    border-radius: 100%
+    border-radius: 100%;
+}
+
+#logos-reseaux4:hover {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    border-radius: 100%;
+    filter: saturate(200%);
 }
 
 #logos-reseaux5 {
     width: 25%;
     height: 100%;
     display: flex;
+}
+
+#logos-reseaux5:hover {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    filter: saturate(200%);
 }
 
 .border-line {
