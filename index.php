@@ -15,8 +15,8 @@
     <title>Djaâfar BOUMAZA || ePortfolio </title>
 </head>
 
-<body>
-    <header class="row container-fluid minightBlue">
+<body class="container-fluid">
+    <header class="row minightBlue">
         <div class="col-md-9 col-xs-3 bloc-header">
           <img id="logo-profile" src="./content/logos/user.svg" alt="Photo utilisateur">
           <a href="index.php" title="Accueil" class="photo-lien"><img id="photo-profile" src="./content/photo/photo-reseaux.png" alt="Logo utilisateur"></a>
@@ -30,7 +30,11 @@
           <a href="https://twitter.com/djaafarcode?lang=fr" title="Visitez mon twitter"><img id="logos-reseaux4" src="./content/logos/twitter.svg" alt="Logo Twitter"></a>
           <a href="mailto:code-db_@outlook.fr" title="Me contacter"><img id="logos-reseaux5" src="./content/logos/mail.svg" alt="Logo E-Mail"></a>
         </div>
+        <div class="border-line"></div>
     </header>
+    
+
+
 </body>
 
 </html>
