@@ -32,8 +32,28 @@
         </div>
         <div class="border-line"></div>
     </header>
-    
+        <center><button class="button">Voir mes projets</button></center>
 
+
+    <!-- VOLET -->
+    
+    
+    <section class="main">
+        <h2 class="insidemain">Mes Projets</h2>
+        <hr class="insidemain" style="width: 80%;">
+        <div class="scrollmain">
+          <ul>
+            <li><a href="#" alt="" title="Project" class="insidemain">Projet 1</a></li>
+            <li><a href="#" alt="" title="Project" class="insidemain">Projet 2</a></li>
+            <li><a href="#" alt="" title="Project" class="insidemain">Projet 3</a></li>
+            <li><a href="#" alt="" title="Project" class="insidemain">Projet 4</a></li>
+            <li><a href="#" alt="" title="Project" class="insidemain">Projet 5</a></li>
+          </ul>
+        </div>
+    </section>
+
+    <!-- FIN VOLET -->
+<script src="./script.js"></script>
 
 </body>
 

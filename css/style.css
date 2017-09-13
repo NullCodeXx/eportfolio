@@ -145,6 +145,40 @@ body {
 
 /* FIN HEADER */
 
+
+/*VOLET DEROULANT START*/
+
+.main {
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #3C3C3C;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.insidemain {
+    font-family: 'Roboto', sans-serif;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.scrollmain {
+    /*overflow: auto;*/
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.scrollmain:vertical {
+    display: none;
+}
+
+
+/*VOLET DEROULANT END*/
+
 .minightBlue {
     height: 105px;
     background-color: #2c3e50;
@@ -152,7 +186,7 @@ body {
 
 .blue {
     height: 100%;
-    background-color: blue;
+    background-color: lightblue;
 }
 
 .green {
