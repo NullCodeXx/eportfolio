@@ -68,6 +68,11 @@ foreach($all as $f) {
 
 <script src="./script.js"></script>
 
+
+<!-- Temporaire, dans le fichier .gitignore, je le place ici cause probleme du dossier project.
+*
+!.gitignore 
+-->
 </body>
 
 </html>
