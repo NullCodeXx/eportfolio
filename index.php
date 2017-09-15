@@ -56,7 +56,7 @@ foreach($all as $f) {
     
     
     <section class="main">
-        <h2 class="insidemain">Mes Projets</h2>
+        <h2 class="insidemain">Mes Projets </h2>
         <hr class="insidemain" style="width: 80%;">
         <div class="scrollmain">
           <ul>
