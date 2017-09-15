@@ -6,8 +6,8 @@ body {
 /* FONT-FACE */
 
 @font-face {
-    src: url("content/fontface/Pacifico.ttf");
-    font-family: "Pacifico.ttf";
+    src: url("../content/fontface/amita-regular.ttf");
+    font-family: "amita-regular.ttf";
 }
 
 
@@ -48,7 +48,7 @@ body {
     font-size: 2em;
     letter-spacing: 4px;
     font-weight: 900;
-    font-family: "Pacifico.ttf";
+    font-family: "amita-regular.ttf", Helvetica, sans-serif;
     text-shadow: 1px 1px 1px #000;
 }
 
@@ -149,6 +149,7 @@ body {
 /*VOLET DEROULANT START*/
 
 .main {
+    font-family: 'Times New Roman', Times, serif;
     height: 100%;
     width: 0%;
     position: absolute;
@@ -156,14 +157,18 @@ body {
     align-items: center;
     flex-direction: column;
     background-color: #3C3C3C;
-    color: #fff;
+    color: lime;
     transition: 0.5s;
 }
 
 .insidemain {
-    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 1px #000;
     transition: 0.3s;
     opacity: 0;
+    color: red;
 }
 
 .scrollmain {

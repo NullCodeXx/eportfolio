@@ -1,4 +1,4 @@
-console.log('charge le fichier script.');
+// Volet déroulant.
 window.load = init();
 
 function init() {

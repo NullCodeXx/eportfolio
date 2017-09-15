@@ -1,3 +1,20 @@
+<?php
+
+$all = scandir('projects');
+$projects = [];
+//test si point ignore , fichier cacher.
+foreach($all as $f) {
+  if($f[0] === ".") {
+    continue;
+  }
+  //Vérifie les fichiers.
+  if (!is_dir('projects/' . $f)) {
+    continue;
+  }
+  //add projet dans le tableau.
+  $projects[]= $f;
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -20,7 +37,7 @@
         <div class="col-md-9 col-xs-3 bloc-header">
           <img id="logo-profile" src="./content/logos/user.svg" alt="Photo utilisateur">
           <a href="index.php" title="Accueil" class="photo-lien"><img id="photo-profile" src="./content/photo/photo-reseaux.png" alt="Logo utilisateur"></a>
-          <h1 class="name">Djaafar BOUMAZA</h1>
+          <h1 class="name">DJAAFAR BOUMAZA</h1>
           <p class="flow-text functionJob">Développeur Web junior Full Stack</p>
         </div>
         <div class="col-md-3 bloc-header-logo">
@@ -33,7 +50,7 @@
         <div class="border-line"></div>
     </header>
         <center><button class="button">Voir mes projets</button></center>
-
+        <p>Le portfolio est en production et seras mis a jour prochainement, a très bientôt !</p>
 
     <!-- VOLET -->
     
@@ -43,18 +60,15 @@
         <hr class="insidemain" style="width: 80%;">
         <div class="scrollmain">
           <ul>
-            <li><a href="#" alt="" title="Project" class="insidemain">Projet 1</a></li>
-            <li><a href="#" alt="" title="Project" class="insidemain">Projet 2</a></li>
-            <li><a href="#" alt="" title="Project" class="insidemain">Projet 3</a></li>
-            <li><a href="#" alt="" title="Project" class="insidemain">Projet 4</a></li>
-            <li><a href="#" alt="" title="Project" class="insidemain">Projet 5</a></li>
+            <?php foreach($projects as $p) { ?><li><a href="<?php echo 'projects/' .$p;?>"><?php echo 'projects/' .$p;?></a></li><?php } ?>
           </ul>
         </div>
     </section>
-
     <!-- FIN VOLET -->
+
 <script src="./script.js"></script>
 
 </body>
 
 </html>
+
