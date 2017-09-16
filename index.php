@@ -5,9 +5,9 @@ $projects = [];
 
 foreach($all as $f) {
   //Vérifie si le dossier projects existe sinon création du dossier.
-  if(!mkdir('./projects', 753, true)) { //Permet la création de répertoires imbriqués spécifiés dans le pathname
-    die("Error, echec de la création du dossier.");
-  }
+  // if(!mkdir('./projects', 753, true)) { //Permet la création de répertoires imbriqués spécifiés dans le pathname
+  //   die("Error, echec de la création du dossier.");
+  // }
   //test si point ignore , fichier cacher.
   if($f[0] === ".") {
     continue;
