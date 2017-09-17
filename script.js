@@ -15,7 +15,7 @@ function init() {
             click += 1;
             //Ajout de la condition.
             if (click % 2 === 0) {
-                main.style.height = "100%";
+                main.style.height = "81%";
                 main.style.width = "100%";
                 main.style.backgroundColor = "#272822";
                 scrollMain.style.overflow = "hidden";

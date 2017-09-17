@@ -71,26 +71,34 @@ foreach($all as $f) {
         </div>
     </section>
     <!-- FIN VOLET -->
-    <section class="previewProject">
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
-      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+    <section class="sectionProject">
+      <div class="previewProject">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="previewProject">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="previewProject">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="previewProject">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="previewProject">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="previewProject">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="previewProject">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="previewProject">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="previewProject">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
     </section>
+
+    <section class="sectionSkill">
+      <h3 class="titleSkills">MES COMPÉTENCE TECHNIQUES</h3>
+      <div class="divSkills">
+        <div class="skills"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</p></div>
+        <div class="skills"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</p></div>
+        <div class="skills"><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</p></div>    
+      </div>
+    </section>
+    
+    <footer>
+      <section class="sectionFooter">
+          <div class="blocFooter"><a href=""><i class="fa fa-address-book contact" aria-hidden="true">Me contacter</i></a></div>
+          <div class="blocFooter"><a href=""><i class="fa fa-address-book monCV" aria-hidden="true">Télécharger mon CV</i></a></div>
+          <div class="blocFooter"><a href=""><i class="fa fa-address-book mesReseaux" aria-hidden="true">Mon reseaux</i></a></div>
+      </section>
+    </footer>
   
 <script src="./script.js"></script>
 <!-- Temporaire, dans le fichier .gitignore, je le place ici cause probleme du dossier project.
@@ -98,6 +106,4 @@ foreach($all as $f) {
 !.gitignore 
 -->
 </body>
-
 </html>
-

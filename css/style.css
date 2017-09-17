@@ -1,4 +1,4 @@
-/* Keyframes start page */
+/* KEYFRAMES START PAGE */
 
 @keyframes start {
     0% {
@@ -36,6 +36,9 @@
     }
 }
 
+
+/* END KEYFRAMES START PAGE */
+
 body {
     background-color: #22231C;
 }
@@ -50,7 +53,7 @@ body {
 }
 
 
-/* FONT-FACE */
+/* ADD FONT-FACE */
 
 @font-face {
     src: url("../content/fontface/amita-regular.ttf");
@@ -237,15 +240,16 @@ body {
 /* FIN HEADER */
 
 
-/*VOLET DEROULANT START + BUTTON*/
+/*ROLLET SHUTTER + BUTTON */
 
 .button {
     background-color: transparent;
     color: #fff;
+    text-shadow: 1px 2px 2px #000;
     border: 2px solid #EC3360;
     border-radius: 10%;
     font-weight: 600;
-    position: fix;
+    position: fixed;
 }
 
 .main {
@@ -302,22 +306,123 @@ body {
 }
 
 
-/*VOLET DEROULANT END*/
+/*ROLLET SHUTTER END*/
 
 
 /* Bloc de projet prévisualisation */
 
-.previewProject {
+.sectionProject {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.test {
+.previewProject {
     width: 50%;
     height: 20em;
     background-color: rgba(48, 48, 48, 0.5);
     color: #fff;
     display: flex;
+    padding: 2%;
+    margin: 5%;
+    /* Ombrage */
+    -moz-box-shadow: 5px 5px 50px 5px #656565;
+    -webkit-box-shadow: 5px 5px 50px 5px #656565;
+    -o-box-shadow: 5px 5px 50px 5px #656565;
+    box-shadow: 5px 5px 50px 5px #656565;
+    filter: progid: DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=50);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+
+/* SKILLS */
+
+.sectionSkill {
+    background-color: #fff;
+}
+
+.titleSkills {
+    color: #4d76ba;
+    font-weight: 600;
+    text-align: center;
+    line-height: 8;
+}
+
+.divSkills {
+    height: 20em;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills>p {
+    color: #4d76ba;
+    font-weight: 600;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;
+}
+
+
+/* END SKILLS */
+
+
+/* FOOTER */
+
+.sectionFooter {
+    height: 20em;
+    width: 100%;
+    background-color: #4D76BA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blocFooter {
+    height: 10em;
+    width: 20%;
+    padding: 10px;
+    background-color: #4D76BA;
+    text-align: center;
+}
+
+.contact {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact:hover {
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.monCV {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.monCv:hover {
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.mesReseaux {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.mesReseaux:hover {
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
 }
