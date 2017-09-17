@@ -38,11 +38,12 @@ foreach($all as $f) {
 </head>
 
 <body class="container-fluid">
-    <header class="row minightBlue">
+    <header class="row header">
         <div class="col-md-9 col-xs-3 bloc-header">
           <img id="logo-profile" src="./content/logos/user.svg" alt="Photo utilisateur">
-          <a href="index.php" title="Accueil" class="photo-lien"><img id="photo-profile" src="./content/photo/photo-reseaux.png" alt="Logo utilisateur"></a>
+          <a href="index.php" title="Accueil" class="photo-link"><img id="photo-profile" src="./content/photo/photo-reseaux.png" alt="Logo utilisateur"></a>
           <h1 class="name">DJAAFAR BOUMAZA</h1>
+          <hr class="hrUnderTitle1">
           <p class="flow-text functionJob">Développeur Web junior Full Stack</p>
         </div>
         <div class="col-md-3 bloc-header-logo">
@@ -54,26 +55,44 @@ foreach($all as $f) {
         </div>
         <div class="border-line"></div>
     </header>
-        <center><button class="button">Voir mes projets</button></center>
-        <p class="maintenance-working">Le portfolio est en production et seras mis a jour prochainement, a très bientôt !</p>
+    <p class="maintenance-working">Le portfolio est en production et seras mis a jour prochainement, a très bientôt !</p>
+        <button class="button" class="btnViewProject">Voir mes projets</button>
 
     <!-- VOLET -->
     
     
     <section class="main">
-        <h2 class="insidemain">Mes Projets </h2>
-        <hr class="insidemain" style="width: 80%;">
+        <h2 class="insidemain"><span class="titleProject">Mes Projets</span></h2>
+        <hr class="hrUnderTitle">
         <div class="scrollmain">
-          <ul>
-            <?php foreach($projects as $p) { ?><li><a href="<?php echo 'projects/' .$p;?>"><?php echo 'projects/' .$p;?></a></li><?php } ?>
+          <ul class="ulProject">
+            <?php foreach($projects as $p) { ?><li><p class='parafProject'><a class="link-project" href="<?php echo 'projects/' .$p;?>"><?php echo 'projects/' .$p;?></a></p></li><?php } ?>
           </ul>
         </div>
     </section>
     <!-- FIN VOLET -->
-
+    <section class="previewProject">
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+      <div class="test">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias, provident vero officiis nulla delectus deleniti aperiam officia accusamus laborum odit.</div>
+    </section>
+  
 <script src="./script.js"></script>
-
-
 <!-- Temporaire, dans le fichier .gitignore, je le place ici cause probleme du dossier project.
 *
 !.gitignore 
