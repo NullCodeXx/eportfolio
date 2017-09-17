@@ -55,7 +55,7 @@ foreach($all as $f) {
         <div class="border-line"></div>
     </header>
         <center><button class="button">Voir mes projets</button></center>
-        <p>Le portfolio est en production et seras mis a jour prochainement, a très bientôt !</p>
+        <p class="maintenance-working">Le portfolio est en production et seras mis a jour prochainement, a très bientôt !</p>
 
     <!-- VOLET -->
     
