@@ -9,6 +9,33 @@
     }
 }
 
+@keyframes rotate {
+    0% {
+        opacity: 0;
+        -ms-transform: rotate(0deg);
+        /* IE 9 */
+        -webkit-transform: rotate(0deg);
+        /* Chrome, Safari, Opera */
+        transform: rotate(0deg);
+    }
+    50% {
+        opacity: 0.3;
+        -ms-transform: rotate(180deg);
+        /* IE 9 */
+        -webkit-transform: rotate(180deg);
+        /* Chrome, Safari, Opera */
+        transform: rotate(180deg);
+    }
+    100% {
+        opacity: 1;
+        -ms-transform: rotate(360deg);
+        /* IE 9 */
+        -webkit-transform: rotate(360deg);
+        /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+    }
+}
+
 body {
     background-color: #22231C;
 }
@@ -54,6 +81,8 @@ body {
     display: flex;
     animation: start;
     animation-duration: 1s;
+    animation: rotate;
+    animation-duration: 3s;
 }
 
 .photo-link {
