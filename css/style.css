@@ -6,7 +6,7 @@ body {
 /* MESSAGE MAINTENANCE */
 
 .maintenance-working {
-    color: lime;
+    color: #FFFFFF;
     text-align: center;
     font-size: 2em;
 }
