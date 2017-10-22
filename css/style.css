@@ -37,22 +37,6 @@
 }
 
 
-/* END KEYFRAMES START PAGE */
-
-body {
-    background-color: #22231C;
-}
-
-
-/* MESSAGE MAINTENANCE */
-
-.maintenance-working {
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 1em;
-}
-
-
 /* ADD FONT-FACE */
 
 @font-face {
@@ -61,368 +45,161 @@ body {
 }
 
 
-/* HEADER */
+/* 
+    and "et",
+    only "uniquement"
+    not "non".
+    "ou", il suffit d'énumérer différentes media queries à la suite, séparées par des virgules : 
+    si l'une d'entre elles est valable, alors l'ensemble de la règle sera appliquée.
+ */
 
-.header {
-    height: 105px;
-    background-color: #272822;
-}
 
-.bloc-header {
-    background-color: #22231C;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    animation: start;
-    animation-duration: 1s;
-}
+/* Très petits appareils Téléphones (largeur < 768px)	*/
 
-#logo-profile {
-    width: 10%;
-    height: 35%;
-    display: flex;
-    animation: start;
-    animation-duration: 1s;
-    animation: rotate;
-    animation-duration: 3s;
-}
-
-.photo-link {
-    height: 100%;
-    width: 15%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#photo-profile {
-    width: 60%;
-    height: 80%;
-    border-radius: 100%;
-    display: flex;
-    justify-content: flex-start;
-    animation: start;
-    animation-duration: 1s;
-    border: 1px solid #EC3360;
-}
-
-.name {
-    color: #fff;
-    font-size: 2em;
-    letter-spacing: 4px;
-    font-weight: 900;
-    font-family: "amita-regular.ttf", Helvetica, sans-serif;
-    text-shadow: 1px 1px 1px #000;
-    animation: start;
-    animation-duration: 1s;
-}
-
-.hrUnderTitle1 {
-    width: 3%;
-    background-color: #EC3360;
-    -ms-transform: rotate(90deg);
-    /* IE 9 */
-    -webkit-transform: rotate(90deg);
-    /* Chrome, Safari, Opera */
-    transform: rotate(90deg);
-    border: 2px solid #EC3360;
-    margin-top: 8%;
-    margin-left: -5%;
-}
-
-.functionJob {
-    color: #fff;
-    font-size: 1em;
-    top: 10px;
-    letter-spacing: 3px;
-    margin-top: 8%;
-    margin-left: -10%;
-    text-shadow: 1px 1px 1px #000;
-    animation: start;
-    animation-duration: 1s;
-}
-
-.bloc-header-logo {
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #272822;
-}
-
-#logos-reseaux1 {
-    width: 70%;
-    height: 100%;
-    display: flex;
-    animation: start;
-    animation-duration: 1s;
-}
-
-#logos-reseaux1:hover {
-    width: 70%;
-    height: 100%;
-    display: flex;
-    filter: saturate(200%);
-}
-
-#logos-reseaux2 {
-    width: 70%;
-    height: 100%;
-    display: flex;
-    animation: start;
-    animation-duration: 1s;
-}
-
-#logos-reseaux2:hover {
-    width: 70%;
-    height: 100%;
-    display: flex;
-    filter: saturate(200%);
-}
-
-#logos-reseaux3 {
-    width: 70%;
-    height: 100%;
-    display: flex;
-    animation: start;
-    animation-duration: 1s;
-}
-
-#logos-reseaux3:hover {
-    width: 70%;
-    height: 100%;
-    display: flex;
-    filter: saturate(200%);
-}
-
-#logos-reseaux4 {
-    width: 70%;
-    height: 100%;
-    display: flex;
-    border-radius: 100%;
-    animation: start;
-    animation-duration: 1s;
-}
-
-#logos-reseaux4:hover {
-    width: 70%;
-    height: 100%;
-    display: flex;
-    border-radius: 100%;
-    filter: saturate(200%);
-}
-
-#logos-reseaux5 {
-    width: 25%;
-    height: 100%;
-    display: flex;
-    animation: start;
-    animation-duration: 1s;
-}
-
-#logos-reseaux5:hover {
-    width: 25%;
-    height: 100%;
-    display: flex;
-    filter: saturate(200%);
-}
-
-.border-line {
-    height: 5px;
-    width: 100%;
-    background-color: #272822;
-    animation: start;
-    animation-duration: 1s;
+@media screen and (max-width: 768px) {
+    #header {
+        height: 3em;
+        background-color: rgb(11, 32, 31);
+    }
+    .header {}
+    .body-section {
+        height: 100%;
+        background-color: rgb(248, 50, 0);
+    }
+    .block-profil {
+        height: 45em;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #129888;
+        border-radius: 2px;
+        margin-left: 8.33333333%;
+    }
+    .name {
+        font-size: 1em;
+        font-weight: 900;
+        font-family: "amita-regular.ttf";
+    }
+    .block-project {
+        height: 35em;
+        background-color: rgb(11, 32, 31);
+        border-radius: 2px;
+        margin-left: 8.33333333%;
+    }
+    .project-head {
+        background-color: #129888;
+    }
+    .project-body {
+        color: #fff;
+    }
 }
 
 
-/* FIN HEADER */
+/* Petits appareils Tablettes (largeur ≥ 768px)*/
 
-
-/*ROLLET SHUTTER + BUTTON */
-
-.button {
-    background-color: transparent;
-    color: #fff;
-    text-shadow: 1px 2px 2px #000;
-    border: 2px solid #EC3360;
-    border-radius: 10%;
-    font-weight: 600;
-    position: fixed;
-}
-
-.main {
-    font-family: 'Times New Roman', Times, serif;
-    height: 100%;
-    width: 0%;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    color: #EC3360;
-    transition: 0.5s;
-}
-
-.hrUnderTitle {
-    width: 80%;
-    background-color: #EC3360;
-}
-
-.insidemain {
-    letter-spacing: 2px;
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 1px 1px 1px #000;
-    transition: 0.3s;
-    opacity: 0;
-}
-
-.ulProject {
-    list-style: none;
-}
-
-.parafProject {
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.text-project {
-    text-decoration: none;
-    text-transform: capitalize;
-    background-color: #EC3360;
-    color: #fff;
-    font-weight: 900;
-}
-
-.scrollmain {
-    /*overflow: auto;*/
-    padding-right: 5%;
-    padding-left: 5%;
-}
-
-.scrollmain:vertical {
-    display: none;
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #header {
+        height: 4em;
+        background-color: rgb(11, 32, 31);
+    }
+    .body-section {
+        height: 100%;
+        background-color: rgb(255, 157, 0);
+    }
+    .block-profil {
+        height: 45em;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #129888;
+        border-radius: 2px;
+        margin-left: 8.33333333%;
+    }
+    .name {
+        font-size: 1em;
+        font-weight: 900;
+        font-family: "amita-regular.ttf";
+    }
+    .block-project {
+        height: 35em;
+        background-color: rgb(11, 32, 31);
+        border-radius: 2px;
+        margin-left: 8.33333333%;
+    }
+    .project-head {
+        background-color: #129888;
+    }
+    .project-body {
+        color: #fff;
+    }
 }
 
 
-/*ROLLET SHUTTER END*/
+/* Ordinateurs de bureau moyens (largeur ≥ 992px) */
 
-
-/* Bloc de projet prévisualisation */
-
-.sectionProject {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.previewProject {
-    width: 50%;
-    height: 20em;
-    background-color: rgba(48, 48, 48, 0.5);
-    color: #fff;
-    display: flex;
-    padding: 2%;
-    margin: 5%;
-    /* Ombrage */
-    -moz-box-shadow: 5px 5px 50px 5px #656565;
-    -webkit-box-shadow: 5px 5px 50px 5px #656565;
-    -o-box-shadow: 5px 5px 50px 5px #656565;
-    box-shadow: 5px 5px 50px 5px #656565;
-    filter: progid: DXImageTransform.Microsoft.Shadow(color=#656565, Direction=134, Strength=50);
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-}
-
-
-/* SKILLS */
-
-.sectionSkill {
-    background-color: #fff;
-}
-
-.titleSkills {
-    color: #4d76ba;
-    font-weight: 600;
-    text-align: center;
-    line-height: 8;
-}
-
-.divSkills {
-    height: 20em;
-    width: 100%;
-    background-color: #fff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.skills>p {
-    color: #4d76ba;
-    font-weight: 600;
-    text-align: center;
-    padding: 2%;
-    margin: 2%;
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    #header {
+        height: 5em;
+        background-color: rgb(11, 32, 31);
+    }
+    .header {}
+    .body-section {
+        height: 100%;
+        background-color: rgb(238, 255, 0);
+    }
+    .block-profil {
+        height: 45em;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #129888;
+        border-radius: 2px;
+    }
+    .name {
+        font-size: 1em;
+        font-weight: 900;
+        font-family: "amita-regular.ttf";
+    }
+    .block-project {
+        height: 35em;
+        background-color: rgb(11, 32, 31);
+        border-radius: 2px;
+    }
+    .project-head {
+        background-color: #129888;
+    }
+    .project-body {
+        color: #fff;
+    }
 }
 
 
-/* END SKILLS */
+/* Ordinateurs de bureau de grande taille (largeur ≥ 1200px)*/
 
-
-/* FOOTER */
-
-.sectionFooter {
-    height: 20em;
-    width: 100%;
-    background-color: #4D76BA;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.blocFooter {
-    height: 10em;
-    width: 20%;
-    padding: 10px;
-    background-color: #4D76BA;
-    text-align: center;
-}
-
-.contact {
-    color: #fff;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.contact:hover {
-    color: #fff;
-    font-weight: 900;
-    text-decoration: none;
-}
-
-.monCV {
-    color: #fff;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.monCv:hover {
-    color: #fff;
-    font-weight: 900;
-    text-decoration: none;
-}
-
-.mesReseaux {
-    color: #fff;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.mesReseaux:hover {
-    color: #fff;
-    font-weight: 900;
-    text-decoration: none;
+@media screen and (min-width: 1200px) {
+    #header {
+        height: 6em;
+        background-color: rgb(11, 32, 31);
+    }
+    .header {}
+    .body-section {
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    .block-profil {
+        height: 45em;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #129888;
+        border-radius: 2px;
+    }
+    .name {
+        font-size: 1em;
+        font-weight: 900;
+        font-family: "amita-regular.ttf";
+    }
+    .block-project {
+        height: 35em;
+        background-color: rgb(11, 32, 31);
+        border-radius: 2px;
+    }
+    .project-head {
+        background-color: #129888;
+    }
+    .project-body {
+        color: #fff;
+    }
 }
