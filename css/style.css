@@ -54,9 +54,48 @@
  */
 
 
+/* Très petits appareils Téléphones exception (largeur < 567px)	*/
+
+@media screen and (max-width: 576px) {
+    #header {
+        height: 3em;
+        background-color: rgb(11, 32, 31);
+    }
+    .header {}
+    .body-section {
+        height: 100%;
+        background-color: lightsalmon;
+    }
+    .block-profil {
+        height: 45em;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid #129888;
+        border-radius: 2px;
+        margin-left: 8.33333333%;
+    }
+    .name {
+        font-size: 1em;
+        font-weight: 900;
+        font-family: "amita-regular.ttf";
+    }
+    .block-project {
+        height: 35em;
+        background-color: rgb(11, 32, 31);
+        border-radius: 2px;
+        margin-left: 8.33333333%;
+    }
+    .project-head {
+        background-color: #129888;
+    }
+    .project-body {
+        color: #fff;
+    }
+}
+
+
 /* Très petits appareils Téléphones (largeur < 768px)	*/
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
     #header {
         height: 3em;
         background-color: rgb(11, 32, 31);

@@ -49,10 +49,11 @@ foreach($all as $f) {
 
   <div class="row body-section">
     <div class="col-xs-3 col-sm-4 col-md-4 col-lg-4 col-md-offset-1 block-profil">
-    <h1 class="lead text-center"><span class="name">DJAAFAR BOUMAZA</span> <small>Développeur web full stack</small></h1>
+      <h1 class="lead text-center"><span class="name">DJAAFAR BOUMAZA</span> <small>Développeur web full stack</small></h1>
     </div>
     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-1 block-project">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 project-head">Mes project</div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 project-head">
+      <h2 class="text-center">Visualizer mes projets ?</h2> </div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 project-body">
         <p class="lead text-center">Techno utilisé ... blablabla Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nesciunt nulla quibusdam, eius molestias nemo facere corrupti debitis velit! Quae?</p>
       </div>
