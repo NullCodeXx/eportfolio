@@ -59,7 +59,7 @@
 @media screen and (max-width: 576px) {
     #header {
         height: 3em;
-        background-color: rgb(11, 32, 31);
+        background-color: rgb(14, 44, 42);
     }
     .header {}
     .body-section {
@@ -67,7 +67,7 @@
         background-color: lightsalmon;
     }
     .block-profil {
-        height: 45em;
+        height: 55em;
         background-color: rgb(255, 255, 255);
         border: 1px solid #129888;
         border-radius: 2px;
@@ -79,8 +79,8 @@
         font-family: "amita-regular.ttf";
     }
     .block-project {
-        height: 35em;
-        background-color: rgb(11, 32, 31);
+        height: 30em;
+        background-color: rgb(14, 44, 42);
         border-radius: 2px;
         margin-left: 8.33333333%;
     }
@@ -89,6 +89,51 @@
     }
     .project-body {
         color: #fff;
+    }
+    .profil-header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo-profil {
+        height: 100%;
+        width: 100%;
+        border: 2px solid #129888;
+        border-radius: 10px;
+    }
+    .reseaux {
+        list-style: none;
+    }
+    #logos-reseaux1 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux2 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux3 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux4 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux5 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
     }
 }
 
@@ -98,7 +143,7 @@
 @media screen and (min-width: 576px) and (max-width: 768px) {
     #header {
         height: 3em;
-        background-color: rgb(11, 32, 31);
+        background-color: rgb(14, 44, 42);
     }
     .header {}
     .body-section {
@@ -106,11 +151,13 @@
         background-color: rgb(248, 50, 0);
     }
     .block-profil {
-        height: 45em;
+        height: 55em;
         background-color: rgb(255, 255, 255);
         border: 1px solid #129888;
         border-radius: 2px;
         margin-left: 8.33333333%;
+        margin-top: -3%;
+        padding: 1%;
     }
     .name {
         font-size: 1em;
@@ -119,7 +166,7 @@
     }
     .block-project {
         height: 35em;
-        background-color: rgb(11, 32, 31);
+        background-color: rgb(14, 44, 42);
         border-radius: 2px;
         margin-left: 8.33333333%;
     }
@@ -128,6 +175,51 @@
     }
     .project-body {
         color: #fff;
+    }
+    .profil-header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo-profil {
+        height: 100%;
+        width: 100%;
+        border: 2px solid #129888;
+        border-radius: 10px;
+    }
+    .reseaux {
+        list-style: none;
+    }
+    #logos-reseaux1 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux2 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux3 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux4 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux5 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
     }
 }
 
@@ -137,18 +229,20 @@
 @media screen and (min-width: 768px) and (max-width: 992px) {
     #header {
         height: 4em;
-        background-color: rgb(11, 32, 31);
+        background-color: rgb(14, 44, 42);
     }
     .body-section {
         height: 100%;
         background-color: rgb(255, 157, 0);
     }
     .block-profil {
-        height: 45em;
+        height: 55em;
         background-color: rgb(255, 255, 255);
         border: 1px solid #129888;
         border-radius: 2px;
         margin-left: 8.33333333%;
+        margin-top: -3%;
+        padding: 1%;
     }
     .name {
         font-size: 1em;
@@ -157,7 +251,7 @@
     }
     .block-project {
         height: 35em;
-        background-color: rgb(11, 32, 31);
+        background-color: rgb(14, 44, 42);
         border-radius: 2px;
         margin-left: 8.33333333%;
     }
@@ -166,6 +260,51 @@
     }
     .project-body {
         color: #fff;
+    }
+    .profil-header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo-profil {
+        height: 100%;
+        width: 100%;
+        border: 2px solid #129888;
+        border-radius: 10px;
+    }
+    .reseaux {
+        list-style: none;
+    }
+    #logos-reseaux1 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux2 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux3 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux4 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux5 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
     }
 }
 
@@ -175,7 +314,7 @@
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     #header {
         height: 5em;
-        background-color: rgb(11, 32, 31);
+        background-color: rgb(14, 44, 42);
     }
     .header {}
     .body-section {
@@ -183,10 +322,12 @@
         background-color: rgb(238, 255, 0);
     }
     .block-profil {
-        height: 45em;
+        height: 55em;
         background-color: rgb(255, 255, 255);
         border: 1px solid #129888;
         border-radius: 2px;
+        margin-top: -3%;
+        padding: 1%;
     }
     .name {
         font-size: 1em;
@@ -195,7 +336,7 @@
     }
     .block-project {
         height: 35em;
-        background-color: rgb(11, 32, 31);
+        background-color: rgb(14, 44, 42);
         border-radius: 2px;
     }
     .project-head {
@@ -203,6 +344,51 @@
     }
     .project-body {
         color: #fff;
+    }
+    .profil-header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo-profil {
+        height: 100%;
+        width: 100%;
+        border: 2px solid #129888;
+        border-radius: 10px;
+    }
+    .reseaux {
+        list-style: none;
+    }
+    #logos-reseaux1 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux2 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux3 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux4 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux5 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
     }
 }
 
@@ -212,7 +398,7 @@
 @media screen and (min-width: 1200px) {
     #header {
         height: 6em;
-        background-color: rgb(11, 32, 31);
+        background-color: rgb(14, 44, 42);
     }
     .header {}
     .body-section {
@@ -220,10 +406,12 @@
         background-color: rgb(255, 255, 255);
     }
     .block-profil {
-        height: 45em;
+        height: 55em;
         background-color: rgb(255, 255, 255);
         border: 1px solid #129888;
         border-radius: 2px;
+        margin-top: -3%;
+        padding: 1%;
     }
     .name {
         font-size: 1em;
@@ -232,13 +420,61 @@
     }
     .block-project {
         height: 35em;
-        background-color: rgb(11, 32, 31);
+        background-color: rgb(14, 44, 42);
         border-radius: 2px;
+    }
+    .name-project {
+        color: rgb(14, 44, 42);
     }
     .project-head {
         background-color: #129888;
     }
     .project-body {
         color: #fff;
+    }
+    .profil-header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo-profil {
+        height: 100%;
+        width: 100%;
+        border: 2px solid #129888;
+        border-radius: 10px;
+    }
+    .reseaux {
+        list-style: none;
+    }
+    #logos-reseaux1 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux2 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux3 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux4 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    #logos-reseaux5 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
     }
 }

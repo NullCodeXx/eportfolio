@@ -29,6 +29,19 @@ foreach($all as $f) {
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><link rel="stylesheet" href="css/bootstrap4/css/bootstrap.min.css" />
 <link rel="stylesheet" href="css/style.css" />
 <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+<!-- Bootstrap -->
+<link rel="stylesheet" href="css/bootstrap4/css/bootstrap-grid.css">
+<link rel="stylesheet" href="css/bootstrap4/css/bootstrap-grid.css.map">
+<link rel="stylesheet" href="css/bootstrap4/css/bootstrap-grid.min.css">
+<link rel="stylesheet" href="css/bootstrap4/css/bootstrap-grid.min.css.map">
+<link rel="stylesheet" href="css/bootstrap4/css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap4/css/bootstrap.css.map">
+<link rel="stylesheet" href="css/bootstrap4/css/bootstrap.min.css.map">
+<!-- Bootstrap js -->
+<link rel="stylesheet" href="css/bootstrap4/js/bootstrap.js">
+<link rel="stylesheet" href="css/bootstrap4/js/bootstrap..min.js">
+<!-- Normalize -->
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -46,20 +59,37 @@ foreach($all as $f) {
 
 <body>
     <header class="container-fluid row header" id="header"></header>
-
-  <div class="row body-section">
-    <div class="col-xs-3 col-sm-4 col-md-4 col-lg-4 col-md-offset-1 block-profil">
-      <h1 class="lead text-center"><span class="name">DJAAFAR BOUMAZA</span> <small>Développeur web full stack</small></h1>
-    </div>
-    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-md-offset-1 block-project">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 project-head">
-      <h2 class="text-center">Visualizer mes projets ?</h2> </div>
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 project-body">
-        <p class="lead text-center">Techno utilisé ... blablabla Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nesciunt nulla quibusdam, eius molestias nemo facere corrupti debitis velit! Quae?</p>
+  <section class="container-fluid">
+    <div class="row body-section">
+      <div class="col-md-4 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 block-profil">
+        <div class="col-md-offset4 col-md-4 col-md-offset-4 col-sm-offset-4 profil-header">
+        <img class="photo-profil" src="./content/photo/photo-reseaux.png" alt="Photo de Djaafar BOUMAZA">
+        </div>
+        <div class="col-md-12">
+          <h1 class="lead text-center"><span class="name">DJAAFAR BOUMAZA</span>
+            <br />
+           <small>Développeur web full stack</small></h1>  
+        </div>
+        <div class="container">
+          <ul class="row reseaux">
+            <li><a href="https://github.com/djaafarcode" title="Voir mes projets Github"><img id="logos-reseaux1" src="./content/logos/github.svg" alt="Logo Github"></a></li>
+            <li><a href="https://plus.google.com/102441240849299749508" title="Visitez mon compte Google Plus"><img id="logos-reseaux2" src="./content/logos/google-plus.svg" alt="Logo Google Plus"></a></li>
+            <li><a href="https://www.linkedin.com/in/djaafar-boumaza-84a867146/" title="Voir mon profil Linkedin"><img id="logos-reseaux3" src="./content/logos/linkedin.svg" alt="Logo Linkedin"></a></li>
+            <li><a href="https://twitter.com/djaafarcode?lang=fr" title="Visitez mon twitter"><img id="logos-reseaux4" src="./content/logos/twitter.svg" alt="Logo Twitter"></a></li>
+            <li><a href="mailto:code-db_@outlook.fr" title="Me contacter"><img id="logos-reseaux5" src="./content/logos/mail.svg" alt="Logo E-Mail"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 block-project">
+        <div class="col-md-12 project-head">
+        <h2 class="text-center"><span class="name-project">Visualizer mes projets?</span></h2></div>
+        <div class="col-md-12 project-body">
+          <p class="lead text-center">Techno utilisé ... blablabla Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nesciunt nulla quibusdam, eius molestias nemo facere corrupti debitis velit! Quae?</p>
+        </div>
       </div>
     </div>
-      
-  </div>
+  </section>
+  
     <!-- 
       Reseaux
 

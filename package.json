@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/djaafarcode/eportfolio#readme",
   "dependencies": {
-    "bootstrap": "^4.0.0-beta"
+    "bootstrap": "^4.0.0-alpha.6",
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0"
   }
 }
