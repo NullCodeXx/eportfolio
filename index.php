@@ -65,7 +65,7 @@ foreach($all as $f) {
 
       <div class="col-md-4 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 block-profil">
         <div class="col-md-offset-4 col-md-4 col-md-offset-4 col-sm-offset-4 profil-header">
-          <img class="photo-profil" src="./content/photo/photo-reseaux.png" alt="Photo de Djaafar BOUMAZA">
+          <img class="photo-profil" src="./content/photo/moi/photo-reseaux.png" alt="Photo de Djaafar BOUMAZA">
         </div>
 
         <div class="col-md-12">
@@ -104,15 +104,35 @@ foreach($all as $f) {
         <h2 class="text-center"><span class="name-project">Zone de développement</span></h2></div>
         <div class="col-md-12 project-body">
             <p class="lead text-center col-xs-offset-1">Visualizer mes projets ? <stron>Simplon.co</strong></p>
-          <table>
-            <div class="col-md-offset-0 col-md-6 col-xs-offset-1">
-              <dl class="container preview-project">
-                <img src="/test/" alt="image projet" />
+          <table class="table table-bordered table-striped table-condensed">
+            <div class="col-md-offset-0 col-md-6 col-xs-offset-0">
+                <div class="col-md-12 col-xs-offset-0 col-sm-offset-0">
+                  <img class="preview-project" src="./content/photo/project/driveme.png" alt="image projet" />
+                </div>
             </div>
 
             <div class="col-md-offset-0 col-md-6 col-xs-offset-1">
               <dt>Driiveme</dt>
               <dd>Reproduction du site Driiveme.com</dd>
+              <ul class="list-inline list-unstyled">
+                <li>logoHtml</li>
+                <li>logoCss</li>
+                <li>Etc...</li>
+              </ul>
+            </div>
+          </table>
+
+          <table class="table table-bordered table-striped table-condensed">
+            <div class="col-md-offset-0 col-md-6 col-xs-offset-0">
+                <div class="col-md-12 col-xs-offset-0 col-sm-offset-0">
+                  <!-- <img class="col-md-6 preview-project-game" src="./content/photo/project/game.png" alt="image projet" /> -->
+                  <img class="preview-project" src="./content/photo/project/game1.png" alt="image projet" />
+                </div>
+            </div>
+
+            <div class="col-md-offset-0 col-md-6 col-xs-offset-1">
+              <dt>Game Fight</dt>
+              <dd>Jeux de combat</dd>
               <ul class="list-inline list-unstyled">
                 <li>logoHtml</li>
                 <li>logoCss</li>
@@ -139,12 +159,12 @@ foreach($all as $f) {
     </section>
     FIN VOLET
     -->
-    <footer class="container-fluid block-footer">
+    <!-- <footer class="container-fluid block-footer">
       <div class="row">
         <div class="col-md-12 black">bla</div>
         <div class="col-md-12 grey">bli</div>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- Volet js -->
     <script src="./script.js"></script>

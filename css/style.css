@@ -83,12 +83,18 @@
         background-color: rgb(14, 44, 42);
         border-radius: 2px;
         margin-left: 8.33333333%;
+        overflow-y: scroll;
+        overflow-x: scroll;
     }
     .project-header {
         background-color: #129888;
     }
     .project-body {
         color: #fff;
+    }
+    .preview-project {
+        height: 10em;
+        width: 100%;
     }
     .profil-header {
         display: flex;
@@ -143,9 +149,6 @@
         font-weight: 900;
         font-family: "amita-regular.ttf";
     }
-    .preview-project {
-        height: 8em;
-    }
     /* Footer */
     .black {
         height: 3em;
@@ -189,12 +192,18 @@
         background-color: rgb(14, 44, 42);
         border-radius: 2px;
         margin-left: 8.33333333%;
+        overflow-y: scroll;
+        overflow-x: scroll;
     }
     .project-header {
         background-color: #129888;
     }
     .project-body {
         color: #fff;
+    }
+    .preview-project {
+        height: 10em;
+        width: 100%;
     }
     .profil-header {
         display: flex;
@@ -247,9 +256,6 @@
     .biographie {
         font-weight: 900;
         font-family: "amita-regular.ttf";
-    }
-    .preview-project {
-        height: 8em;
     }
     /* Footer */
     .black {
@@ -293,12 +299,18 @@
         background-color: rgb(14, 44, 42);
         border-radius: 2px;
         margin-left: 8.33333333%;
+        overflow-y: scroll;
+        overflow-x: scroll;
     }
     .project-header {
         background-color: #129888;
     }
     .project-body {
         color: #fff;
+    }
+    .preview-project {
+        height: 10em;
+        width: 100%;
     }
     .profil-header {
         display: flex;
@@ -351,9 +363,6 @@
     .biographie {
         font-weight: 900;
         font-family: "amita-regular.ttf";
-    }
-    .preview-project {
-        height: 8em;
     }
     /* Footer */
     .black {
@@ -397,12 +406,18 @@
         height: 35em;
         background-color: rgb(14, 44, 42);
         border-radius: 2px;
+        overflow-y: scroll;
+        overflow-x: scroll;
     }
     .project-header {
         background-color: #129888;
     }
     .project-body {
         color: #fff;
+    }
+    .preview-project {
+        height: 10em;
+        width: 100%;
     }
     .profil-header {
         display: flex;
@@ -455,9 +470,6 @@
     .biographie {
         font-weight: 900;
         font-family: "amita-regular.ttf";
-    }
-    .preview-project {
-        height: 8em;
     }
     /* Footer */
     .black {
@@ -501,6 +513,8 @@
         height: 35em;
         background-color: rgb(14, 44, 42);
         border-radius: 2px;
+        overflow-y: scroll;
+        overflow-x: scroll;
     }
     .name-project {
         color: rgb(14, 44, 42);
@@ -510,6 +524,10 @@
     }
     .project-body {
         color: #fff;
+    }
+    .preview-project {
+        height: 10em;
+        width: 100%;
     }
     .profil-header {
         display: flex;
@@ -562,9 +580,6 @@
     .biographie {
         font-weight: 900;
         font-family: "amita-regular.ttf";
-    }
-    .preview-project {
-        height: 8em;
     }
     /* Footer */
     .black {
