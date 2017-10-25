@@ -159,12 +159,12 @@ foreach($all as $f) {
     </section>
     FIN VOLET
     -->
-    <!-- <footer class="container-fluid block-footer">
+    <footer class="container-fluid block-footer">
       <div class="row">
         <div class="col-md-12 black">bla</div>
         <div class="col-md-12 grey">bli</div>
       </div>
-    </footer> -->
+    </footer>
 
     <!-- Volet js -->
     <script src="./script.js"></script>
