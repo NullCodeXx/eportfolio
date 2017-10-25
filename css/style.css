@@ -67,7 +67,7 @@
         background-color: lightsalmon;
     }
     .block-profil {
-        height: 55em;
+        height: 100%;
         background-color: rgb(255, 255, 255);
         border: 1px solid #129888;
         border-radius: 2px;
@@ -84,7 +84,7 @@
         border-radius: 2px;
         margin-left: 8.33333333%;
     }
-    .project-head {
+    .project-header {
         background-color: #129888;
     }
     .project-body {
@@ -97,13 +97,11 @@
         align-items: center;
     }
     .photo-profil {
-        height: 100%;
-        width: 100%;
+        height: 20em;
+        width: 80%;
+        margin: 3%;
         border: 2px solid #129888;
         border-radius: 10px;
-    }
-    .reseaux {
-        list-style: none;
     }
     #logos-reseaux1 {
         height: 2em;
@@ -134,6 +132,16 @@
         width: 30px;
         border-radius: 100%;
         margin: 15%;
+    }
+    #logos-reseaux6 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    .biographie {
+        font-weight: 900;
+        font-family: "amita-regular.ttf";
     }
 }
 
@@ -151,13 +159,13 @@
         background-color: rgb(248, 50, 0);
     }
     .block-profil {
-        height: 55em;
+        height: 50em;
         background-color: rgb(255, 255, 255);
-        border: 1px solid #129888;
         border-radius: 2px;
-        margin-left: 8.33333333%;
-        margin-top: -3%;
+        margin-top: -5%;
         padding: 1%;
+        position: fixed;
+        overflow-x: scroll;
     }
     .name {
         font-size: 1em;
@@ -170,7 +178,7 @@
         border-radius: 2px;
         margin-left: 8.33333333%;
     }
-    .project-head {
+    .project-header {
         background-color: #129888;
     }
     .project-body {
@@ -187,9 +195,6 @@
         width: 100%;
         border: 2px solid #129888;
         border-radius: 10px;
-    }
-    .reseaux {
-        list-style: none;
     }
     #logos-reseaux1 {
         height: 2em;
@@ -220,6 +225,16 @@
         width: 30px;
         border-radius: 100%;
         margin: 15%;
+    }
+    #logos-reseaux6 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    .biographie {
+        font-weight: 900;
+        font-family: "amita-regular.ttf";
     }
 }
 
@@ -236,13 +251,13 @@
         background-color: rgb(255, 157, 0);
     }
     .block-profil {
-        height: 55em;
+        height: 50em;
         background-color: rgb(255, 255, 255);
-        border: 1px solid #129888;
         border-radius: 2px;
-        margin-left: 8.33333333%;
-        margin-top: -3%;
+        margin-top: -5%;
         padding: 1%;
+        position: fixed;
+        overflow-x: scroll;
     }
     .name {
         font-size: 1em;
@@ -255,7 +270,7 @@
         border-radius: 2px;
         margin-left: 8.33333333%;
     }
-    .project-head {
+    .project-header {
         background-color: #129888;
     }
     .project-body {
@@ -272,9 +287,6 @@
         width: 100%;
         border: 2px solid #129888;
         border-radius: 10px;
-    }
-    .reseaux {
-        list-style: none;
     }
     #logos-reseaux1 {
         height: 2em;
@@ -305,6 +317,16 @@
         width: 30px;
         border-radius: 100%;
         margin: 15%;
+    }
+    #logos-reseaux6 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    .biographie {
+        font-weight: 900;
+        font-family: "amita-regular.ttf";
     }
 }
 
@@ -322,12 +344,13 @@
         background-color: rgb(238, 255, 0);
     }
     .block-profil {
-        height: 55em;
+        height: 50em;
         background-color: rgb(255, 255, 255);
-        border: 1px solid #129888;
         border-radius: 2px;
-        margin-top: -3%;
+        margin-top: -5%;
         padding: 1%;
+        position: fixed;
+        overflow-x: scroll;
     }
     .name {
         font-size: 1em;
@@ -339,7 +362,7 @@
         background-color: rgb(14, 44, 42);
         border-radius: 2px;
     }
-    .project-head {
+    .project-header {
         background-color: #129888;
     }
     .project-body {
@@ -356,9 +379,6 @@
         width: 100%;
         border: 2px solid #129888;
         border-radius: 10px;
-    }
-    .reseaux {
-        list-style: none;
     }
     #logos-reseaux1 {
         height: 2em;
@@ -389,6 +409,16 @@
         width: 30px;
         border-radius: 100%;
         margin: 15%;
+    }
+    #logos-reseaux6 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    .biographie {
+        font-weight: 900;
+        font-family: "amita-regular.ttf";
     }
 }
 
@@ -406,15 +436,16 @@
         background-color: rgb(255, 255, 255);
     }
     .block-profil {
-        height: 55em;
+        height: 50em;
         background-color: rgb(255, 255, 255);
-        border: 1px solid #129888;
         border-radius: 2px;
-        margin-top: -3%;
+        margin-top: -5%;
         padding: 1%;
+        position: fixed;
+        overflow-x: scroll;
     }
     .name {
-        font-size: 1em;
+        font-size: 2em;
         font-weight: 900;
         font-family: "amita-regular.ttf";
     }
@@ -426,7 +457,7 @@
     .name-project {
         color: rgb(14, 44, 42);
     }
-    .project-head {
+    .project-header {
         background-color: #129888;
     }
     .project-body {
@@ -443,9 +474,6 @@
         width: 100%;
         border: 2px solid #129888;
         border-radius: 10px;
-    }
-    .reseaux {
-        list-style: none;
     }
     #logos-reseaux1 {
         height: 2em;
@@ -476,5 +504,27 @@
         width: 30px;
         border-radius: 100%;
         margin: 15%;
+    }
+    #logos-reseaux6 {
+        height: 2em;
+        width: 30px;
+        border-radius: 100%;
+        margin: 15%;
+    }
+    .biographie {
+        font-weight: 900;
+        font-family: "amita-regular.ttf";
+    }
+    .test {
+        height: 50em;
+        background-color: lightgrey;
+    }
+    .test1 {
+        height: 25em;
+        background-color: lightblue;
+    }
+    .test2 {
+        height: 25em;
+        background-color: lightcoral;
     }
 }

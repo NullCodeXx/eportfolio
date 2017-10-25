@@ -102,5 +102,536 @@
 <div class="row">
   <div class="col-md-6 col-md-offset-3 block-profil">.col-md-6 .col-md-offset-3</div>
 </div>
+
+<!-- 
+  Les images
+
+Sur moyen et grand écran : 6 images sur la largeur.
+Sur tablette : 4 images sur la largeur.
+Sur smartphone : 3 images sur la largeur.
+-->
+<div class="container">
+  <section class="row">
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="images/t1.jpg" alt="Tigre"></div>
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="images/t2.jpg" alt="Tigre"></div>
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="images/t3.jpg" alt="Tigre"></div>
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="images/t4.jpg" alt="Tigre"></div>
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="images/t5.jpg" alt="Tigre"></div>
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="images/t6.jpg" alt="Tigre"></div>
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="images/t7.jpg" alt="Tigre"></div>
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="images/t8.jpg" alt="Tigre"></div>
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="images/t9.jpg" alt="Tigre"></div>
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="images/t10.jpg" alt="Tigre"></div>
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="images/t11.jpg" alt="Tigre"></div>
+    <div class="col-xs-4 col-sm-3 col-md-2"><img src="images/t12.jpg" alt="Tigre"></div>
+  </section>
+</div>
+
+<!-- Clearfix -->
+
+<div class="bg-info clearfix">
+  <button class="btn btn-secondary float-left">Example Button floated left</button>
+  <button class="btn btn-secondary float-right">Example Button floated right</button>
+</div>
+
+<div class="clearfix visible-sm-block"></div>
+
+        <div class="hidden-xs col-md-2">
+          <div class="row">
+            <aside class="col-md-12">
+              Aside
+            </aside>
+            <aside class="col-md-12">
+              Aside
+            </aside>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container">
+
+      <div class="row">
+
+        <nav class="col-md-12 col-lg-2">
+            Navigation
+        </nav>
+
+        <section class="col-md-6 col-lg-5">
+          Section
+        </section>
+        <section class="col-md-6 col-lg-5">
+          Section
+        </section>
+      </div>
+
+      <section class="col-sm-4 table-responsive">
+      <table class="table table-bordered table-striped table-condensed">
+      <caption>
+      <h4>Les menaces pour les tigres</h4>
+      </caption>
+      <thead>
+        <tr>
+          <th>Lieu</th>
+          <th>Menace</th>
+        </tr>
+      </thead>
+        <tbody>
+          <tr class="success">
+            <td>Grand Mekong</td>
+            <td>Demande croissante de certaines parties de l’animal pour la médecine chinoise traditionnelle et 
+    fragmentation des habitats du fait du développement non durable d’infrastructures</td>
+          </tr>
+          <tr class="danger">
+            <td>Île de Sumatra</td>
+            <td>Production d’huile de palme et de pâtes à papiers</td>
+          </tr>
+          <tr class="warning">
+            <td>Indonésie et Malaisie</td>
+            <td>Pâte à papier, l’huile de palme et le caoutchouc</td>
+          </tr>
+          <tr class="active">
+            <td>États-Unis</td>
+            <td>Les tigres captifs représentent un danger pour les tigres sauvages</td>
+          </tr>
+          <tr class="success">
+            <td>Europe</td>
+            <td>Gros appétit pour l’huile de palme</td>
+          </tr>
+          <tr class="danger">
+            <td>Népal</td>
+            <td>Commerce illégal de produits dérivés de tigres</td>
+          </tr>
+        </tbody>
+    </table>
+    </section> 
+
+    <!-- Formulaire -->
+    <section col-md-8>
+    <div class="row">
+        <section class="col-sm-8">
+          <form class="well">
+            <legend>Si vous voulez me laisser un message</legend>
+            <h4>Comment m'avez-vous trouvé ?</h4>
+            <fieldset>
+              <div class="radio">
+                <label for="ami" class="radio">
+                  <input type="radio" name="origine" value="ami" id="ami">
+                  Par un ami 
+                </label>
+              </div>
+              <div class="radio">
+                <label for="web" class="radio">
+                  <input type="radio" name="origine" value="web" id="web">
+                  Sur le web 
+                </label>
+              </div>
+              <div class="radio">
+                <label for="hasard" class="radio">
+                  <input type="radio" name="origine" value="hasard" id="hasard">
+                  Par hasard 
+                </label>
+              </div>
+              <div class="radio">
+                <label for="autre" class="radio">
+                  <input type="radio" name="origine" value="autre" id="autre">
+                  Autre... 
+                </label>
+              </div>
+              <label for="textarea">Votre message :</label>
+                <textarea id="textarea" class="form-control" rows="4"></textarea>
+                <p class="help-block">Vous pouvez agrandir la fenêtre</p>
+              <button class="btn btn-primary" type="submit">Envoyer</button>
+            </fieldset>
+          </form>
+        </section>
+        <section class="col-sm-4">
+          <address>
+          <p>Vous pouvez me contacter à cette adresse :</p>
+          <strong>Tigrou Alfred</strong><br>
+            Allée des fauves<br>
+            28645 Félins-sur-Loire<br>
+          </address>
+        </section>
+      </div>
+    </div>
+    </section>
+    <!-- Formulaire horyzontal -->
+    <form class="form-horizontal col-lg-6">
+  <div class="form-group">
+    <legend>Légende</legend>
+  </div>
+  <div class="row">
+    <div class="form-group">
+      <label for="text" class="col-lg-2 control-label">Text : </label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="text">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="form-group">
+      <label for="textarea" class="col-lg-2 control-label">Textarea : </label>
+      <div class="col-lg-10">
+        <input type="textarea" class="form-control" id="textarea">
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="form-group">
+    <label for="select" class="col-lg-2 control-label">Select: </label>
+      <div class="col-lg-10">
+        <select id="select" class="form-control" >
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option>Option 3</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <button class="pull-right btn btn-default">Envoyer</button>
+  </div>
+</form>
+
+<!-- Formulaire en ligne -->
+<form class="form-inline">
+<div class="form-group">
+  <label class="sr-only" for="text">Texte</label>
+  <input type="text" class="form-control" id="text" placeholder="un texte ici">
+</div>
+<div class="form-group">
+<div class="checkbox">
+  <label>
+    <input type="checkbox"> Se rappeler de moi...
+  </label>
+</div>
+<button type="submit" class="btn btn-default">Envoyer</button>
+</form>
+
+<!-- Les classes input-group, input-group-addon et input-group-btn à l’œuvre
+
+Accoler une information à un contrôle
+
+Les classesinput-group etinput-group-addon servent à accoler une information à un contrôle de formulaire :-->
+      
+<form class="form-inline">
+  <div class="form-group">
+    <div class="input-group"> 
+      <span class="input-group-addon">€</span>
+      <input type="text" class="form-control" value="100">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="input-group">
+      <input type="text" class="form-control" style="text-align:right" value="100,50">
+      <span class="input-group-addon">€</span> 
+    </div>
+  </div>
+</form>
+
+<!--  On peut aussi les utiliser conjointement pour accoler devant et derrière : -->
+
+<form class="form-inline">
+  <div class="input-group"> 
+    <span class="input-group-addon">€</span>
+    <input type="text" class="form-control" style="text-align:right" value="100">
+    <span class="input-group-addon">.00</span> 
+  </div>
+</form>
+<!-- Avec bouton conjointement -->
+
+<form class="form-inline">
+  <div class="input-group col-lg-4">   
+    <input type="text" class="form-control" style="text-align:right" value="10 000">
+    <span class="input-group-btn">
+      <button class="btn btn-default" type="button">Valider</button>
+      <button class="btn btn-default" type="button">Annuler</button>
+    </span>
+  </div>
+</form>
+
+<!-- Accoler une case à cocher ou un bouton radio à un contrôle  -->
+
+<div class="input-group">   
+  <div class="form-group">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox">
+      </span>
+      <input type="text" class="form-control">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type="radio">
+      </span>
+      <input type="text" class="form-control">
+    </div>
+  </div>
+</div>
+
+<!-- Dimension  -->
+
+<div class="col-lg-3">
+  <input type="text" class="form-control input-sm" value="Petit">
+  <input type="text" class="form-control" value="Normal">
+  <input type="text" class="form-control input-lg" value="Grand">
+</div>
+<!-- Stylisé zone de saisie selon l'état -->
+
+<form class="col-lg-5">
+  <fieldset>
+    <legend>Validation, erreur et succès</legend>
+    <div class="form-group has-error">
+      <label class="control-label" for="idError">Erreur</label>
+      <input type="text" class="form-control" id="idError">
+      <span class="help-block">Corrigez l'erreur s'il vous plait</span>
+    </div>
+    <div class="form-group has-warning">
+      <label class="control-label" for="idWarning">Avertissement</label>
+      <input type="text" class="form-control" id="idWarning">
+      <span class="help-block">Il y a un problème dans la saisie</span>
+    </div>
+    <div class="form-group has-success">
+      <label class="control-label" for="idSuccess">Réussite</label>
+      <input type="text" class="form-control" id="idSuccess">
+      <span class="help-block">Saisie correcte</span>
+    </div>
+  </fieldset>
+</form>
+
+<!-- Ajoute icone Remarquez l'ajout des classeshas-feedback etform-control-feedback pour que l'icône soit bien intégrée dans le contrôle. Ce qui nous donne la figure suivante. -->
+<form class="col-lg-5">
+  <fieldset>
+    <legend>Validation, erreur et succès</legend>
+    <div class="form-group has-error has-feedback">
+      <label class="control-label" for="idError">Erreur</label>
+      <input type="text" class="form-control" id="idError">
+      <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+      <span class="help-block">Corrigez l'erreur s'il vous plait</span>
+    </div>
+    <div class="form-group has-warning has-feedback">
+      <label class="control-label" for="idWarning">Avertissement</label>
+      <input type="text" class="form-control" id="idWarning">
+      <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+      <span class="help-block">Il y a un problème dans la saisie</span>
+    </div>
+    <div class="form-group has-success has-feedback">
+      <label class="control-label" for="idSuccess">Réussite</label>
+      <input type="text" class="form-control" id="idSuccess">
+      <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+      <span class="help-block">Saisie correcte</span>
+    </div>
+  </fieldset>
+</form>
+
+<!-- Formulaire  -->
+<div class="col-lg-4">
+  <form class="form-inline well">
+    <div class="form-group">
+      <label class="sr-only" for="text">Saisie</label>
+      <input id="text" type="text" class="form-control" placeholder="Texte ici">
+    </div>
+    <button type="submit" class="btn btn-primary pull-right">Envoyer</button>
+    <div class="alert alert-block alert-danger" style="display:none">
+      <h4>Erreur !</h4>
+      Vous devez entrer au moins 4 caractères ! 
+    </div>
+  </form>
+</div>
+<script src="assets/js/jquery.js"></script> 
+<script>
+  $(function(){
+    $("form").on("submit", function() {
+      if($("input").val().length < 4) {
+        $("div.form-group").addClass("has-error");
+        $("div.alert").show("slow").delay(4000).hide("slow");
+        return false;
+      }
+    });
+  });
+</script>
+
+<!-- Type de bouton -->
+<button type="button" class="btn btn-primary">Bouton standard</button>
+<button type="button" class="btn btn-success">Réussite</button>
+<button type="button" class="btn btn-info">Information</button>
+<button type="button" class="btn btn-warning">Avertissement</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-link">Lien</button>
+
+
+<!-- Dimension des bouton-->
+
+<button type="button" class="btn btn-primary btn-lg">Bouton gros</button>
+<button type="button" class="btn btn-primary">Bouton standard</button>
+<button type="button" class="btn btn-primary btn-sm">Bouton petit</button>
+<button type="button" class="btn btn-primary btn-xs">Bouton très petit</button>
+
+<!-- Bouton block -->
+
+<div class="row">
+  <div class="col-sm-3">
+    <button type="button" class="btn btn-primary btn-block">Bouton "block"</button>
+  </div>
+  <div class="col-sm-6">
+    <button type="button" class="btn btn-success btn-block">Bouton "block"</button>
+  </div>
+  <div class="col-sm-3">
+    <button type="button" class="btn btn-danger btn-block">Bouton "block"</button>
+  </div>
+</div>
+
+<!-- Grouper les bouton -->
+<div class="row">
+  <div class="col-lg-2">
+    <div class="btn-group">
+        <a class="btn btn-danger" href="#">1</a>
+        <a class="btn btn-info" href="#">2</a>
+        <a class="btn btn-warning" href="#">3</a>
+    </div>
+  </div>
+  <div class="col-lg-1">
+    <div class="btn-group-vertical">
+        <a class="btn btn-danger" href="#">4</a>
+        <a class="btn btn-info" href="#">5</a>
+        <a class="btn btn-warning" href="#">6</a>
+    </div>
+  </div>
+</div>
+<!-- Bouton btn-toolbar complexe -->
+<div class="btn-toolbar">
+  <div class="btn-group">
+      <a class="btn btn-danger" href="#">1</a>
+      <a class="btn btn-info" href="#">2</a>
+      <a class="btn btn-warning" href="#">3</a>
+  </div>
+  <div class="btn-group">
+      <a class="btn btn-danger" href="#">4</a>
+      <a class="btn btn-info" href="#">5</a>
+      <a class="btn btn-warning" href="#">6</a>
+  </div>
+</div>
+
+<!-- Redimensioner group de bouton -->
+<div class="row">
+  <div class="col-lg-1">
+    <div class="btn-group-vertical btn-group-lg">
+        <a class="btn btn-danger" href="#">4</a>
+        <a class="btn btn-info" href="#">5</a>
+        <a class="btn btn-warning" href="#">6</a>
+    </div>
+  </div>
+  <div class="col-lg-1">
+    <div class="btn-group-vertical">
+        <a class="btn btn-danger" href="#">4</a>
+        <a class="btn btn-info" href="#">5</a>
+        <a class="btn btn-warning" href="#">6</a>
+    </div>
+  </div>
+  <div class="col-lg-1">
+    <div class="btn-group-vertical btn-group-sm">
+        <a class="btn btn-danger" href="#">4</a>
+        <a class="btn btn-info" href="#">5</a>
+        <a class="btn btn-warning" href="#">6</a>
+    </div>
+  </div>
+  <div class="col-lg-1">
+    <div class="btn-group-vertical btn-group-xs">
+        <a class="btn btn-danger" href="#">4</a>
+        <a class="btn btn-info" href="#">5</a>
+        <a class="btn btn-warning" href="#">6</a>
+    </div>
+  </div>
+</div>
+<!-- Boutons justifiés -->
+<div class="col-lg-6">
+  <div class="btn-group btn-group-justified">
+      <a class="btn btn-danger" href="#">1</a>
+      <a class="btn btn-info" href="#">2</a>
+      <a class="btn btn-warning" href="#">3</a>
+  </div>
+</div>
+<!-- Redimention -->
+<p><i class="fa fa-print fa-lg"></i> Taille normale</p>
+<p><i class="fa fa-print fa-2x"></i> Taille double</p>
+<p><i class="fa fa-print fa-3x"></i> Taille triple</p>
+<p><i class="fa fa-print fa-4x"></i> Taille quadruple</p>
+<p><i class="fa fa-print fa-5x"></i> Taille quintuple</p>
+
+<!-- Icone -->
+Il faut déverrouiller <i class="fa fa-unlock"></i> pour sortir <i class="fa fa-arrow-right"></i>
+
+<!-- Button bulle -->
+<button class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-user"></span></button>
+<button class="btn btn-warning btn-lg"><span class="glyphicon glyphicon-comment"></span></button>
+<button class="btn btn-success btn-lg"><span class="glyphicon glyphicon-calendar"></span></button>
+<button class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-shopping-cart"></button>
+<button class="btn btn-info btn-lg"><span class="glyphicon glyphicon-bullhorn"></span></button>
+
+<!-- Button icon separer du text -->
+<button class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-user"></span><br>Utilisateurs</button>
+<button class="btn btn-warning btn-lg"><span class="glyphicon glyphicon-comment"></span><br>Commentaires</button>
+<button class="btn btn-success btn-lg"><span class="glyphicon glyphicon-calendar"></span><br>Evénements</button>
+<button class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-shopping-cart"></span><br>Boutique</button>
+<button class="btn btn-info btn-lg"><span class="glyphicon glyphicon-bullhorn"></span><br>Messages</button>
+
+<!-- Button envoyer + icone -->
+<button class="btn btn-primary" type="submit"><span class="glyphicon glyphicon-ok-sign" style="color:#4f4;"></span> Envoyer</button>
+
+<!-- Button icone  -->
+<div class="container">
+  <div class="row" >
+    <div class="col-lg-3">
+      <div class="btn-group">
+          <a class="btn btn-danger" href="#"><span class="glyphicon glyphicon-fast-backward"></span>&nbsp;</a>
+          <a class="btn btn-info" href="#"><span class="glyphicon glyphicon-backward"></span>&nbsp;</a>
+          <a class="btn btn-warning" href="#"><span class="glyphicon glyphicon-play"></span>&nbsp;</a>
+          <a class="btn btn-info" href="#"><span class="glyphicon glyphicon-forward"></span>&nbsp;</a>
+          <a class="btn btn-danger" href="#"><span class="glyphicon glyphicon-fast-forward"></span>&nbsp;</a>
+      </div>
+    </div>
+    <div class="col-lg-1">
+      <div class="btn-group-vertical">
+          <a class="btn btn-danger" href="#"><span class="glyphicon glyphicon-pencil"></span>&nbsp;</a>
+          <a class="btn btn-info" href="#"><span class="glyphicon glyphicon-search"></span>&nbsp;</a>
+          <a class="btn btn-warning" href="#"><span class="glyphicon glyphicon-print"></span>&nbsp;</a>
+          <a class="btn btn-success" href="#"><span class="glyphicon glyphicon-picture"></span>&nbsp;</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- list element identifié avec icone -->
+<ul class="fa-ul">
+  <li><i class="fa-li fa fa-check-square"></i>Vérifier</li>
+  <li><i class="fa-li fa fa-paperclip"></i>Conserver</li>
+  <li><i class="fa-li fa fa-eraser"></i>Effacer</li>
+  <li><i class="fa-li fa fa-print"></i>Imprimer</li>
+</ul>
+
+<!--  Image form-->
+<div class="container">
+  <div class="col-lg-2"> 
+      <img src="images/t1.jpg" class="img-rounded">
+  </div>
+ <div class="col-lg-2"> 
+      <img src="images/t2.jpg" class="img-circle">
+  </div>
+ <div class="col-lg-2"> 
+      <img src="images/t3.jpg" class="img-thumbnail">
+  </div>
+</div>
+
+<!--  -->
+<footer class="row">
+        <div class="col-lg-12">
+          Pied de page
+        </div>
+      </footer>  
+    </div>
+
 </body>
 </html>
