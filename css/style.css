@@ -100,7 +100,7 @@
         height: 20em;
         width: 80%;
         margin: 3%;
-        border: 2px solid #129888;
+        border: 2px solid #09ff00;
         border-radius: 10px;
     }
     #logos-reseaux1 {
@@ -515,6 +515,9 @@
         font-weight: 900;
         font-family: "amita-regular.ttf";
     }
+    .preview-project {
+        height: 8em;
+    }
     .test {
         height: 50em;
         background-color: lightgrey;
@@ -526,5 +529,14 @@
     .test2 {
         height: 25em;
         background-color: lightcoral;
+    }
+    /* Footer */
+    .black {
+        height: 3em;
+        background-color: #191919;
+    }
+    .grey {
+        height: 15em;
+        background-color: #232323;
     }
 }

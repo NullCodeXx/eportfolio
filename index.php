@@ -101,18 +101,17 @@ foreach($all as $f) {
       </div>
       <div class="col-md-6 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 block-project">
         <div class="col-md-12 project-header">
-        <h2 class="text-center"><span class="name-project">Visualizer mes projets?</span></h2></div>
+        <h2 class="text-center"><span class="name-project">Zone de développement</span></h2></div>
         <div class="col-md-12 project-body">
-          <p class="lead text-center col-xs-offset-1">Mes projets au cours de ces 7 derniers mois intensif avec <stron>Simplon.co</strong></p>
+            <p class="lead text-center col-xs-offset-1">Visualizer mes projets ? <stron>Simplon.co</strong></p>
           <table>
             <div class="col-md-offset-0 col-md-6 col-xs-offset-1">
-              <dl class="">
-                <dt>Driveme</dt>
+              <dl class="container preview-project">
                 <img src="/test/" alt="image projet" />
-              </dl>
             </div>
 
             <div class="col-md-offset-0 col-md-6 col-xs-offset-1">
+              <dt>Driiveme</dt>
               <dd>Reproduction du site Driiveme.com</dd>
               <ul class="list-inline list-unstyled">
                 <li>logoHtml</li>
@@ -222,18 +221,7 @@ foreach($all as $f) {
 
     
   
-    <!-- 
-      Reseaux
-
-      <ul>
-        <li><a href="https://github.com/djaafarcode" title="Voir mes projets Github"><img id="logos-reseaux1" src="./content/logos/github.svg" alt="Logo Github"></a></li>
-        <li><a href="https://plus.google.com/102441240849299749508" title="Visitez mon compte Google Plus"><img id="logos-reseaux2" src="./content/logos/google-plus.svg" alt="Logo Google Plus"></a></li>
-        <li><a href="https://plus.google.com/102441240849299749508" title="Visitez mon compte Google Plus"><img id="logos-reseaux2" src="./content/logos/google-plus.svg" alt="Logo Google Plus"></a></li>
-        <li><a href="https://www.linkedin.com/in/djaafar-boumaza-84a867146/" title="Voir mon profil Linkedin"><img id="logos-reseaux3" src="./content/logos/linkedin.svg" alt="Logo Linkedin"></a></li>
-        <li><a href="https://twitter.com/djaafarcode?lang=fr" title="Visitez mon twitter"><img id="logos-reseaux4" src="./content/logos/twitter.svg" alt="Logo Twitter"></a></li>
-        <li><a href="mailto:code-db_@outlook.fr" title="Me contacter"><img id="logos-reseaux5" src="./content/logos/mail.svg" alt="Logo E-Mail"></a></li>
-      </ul>
-
+    <!--
     Volet Deroulant
 
     <button class="button" class="btnViewProject">Voir mes projets</button>
@@ -248,7 +236,11 @@ foreach($all as $f) {
     </section>
     FIN VOLET
     -->
-    <footer>
+    <footer class="container-fluid block-footer">
+      <div class="row">
+        <div class="col-md-12 black">bla</div>
+        <div class="col-md-12 grey">bli</div>
+      </div>
     </footer>
 
     <!-- Volet js -->
