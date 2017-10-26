@@ -158,6 +158,9 @@
         height: 15em;
         background-color: #232323;
     }
+    .layout {
+        color: #fff;
+    }
 }
 
 
@@ -266,6 +269,9 @@
         height: 15em;
         background-color: #232323;
     }
+    .layout {
+        color: #fff;
+    }
 }
 
 
@@ -373,6 +379,9 @@
         height: 15em;
         background-color: #232323;
     }
+    .layout {
+        color: #fff;
+    }
 }
 
 
@@ -479,6 +488,9 @@
     .grey {
         height: 15em;
         background-color: #232323;
+    }
+    .layout {
+        color: #fff;
     }
 }
 
@@ -589,5 +601,21 @@
     .grey {
         height: 15em;
         background-color: #232323;
+    }
+    .layout-cont {
+        height: 6em;
+        background-color: red;
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+    }
+    .layout-cont-navbar {
+        width: 100%;
+        background-color: blue;
+        display: flex;
+        flex-direction: row;
+    }
+    .layout-cont-collapse {
+        display: flex;
     }
 }

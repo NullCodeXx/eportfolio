@@ -23,13 +23,12 @@ foreach($all as $f) {
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><link rel="stylesheet" href="css/bootstrap4/css/bootstrap.min.css" />
+<!-- CSS -->
 <link rel="stylesheet" href="css/style.css" />
-<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
-<!-- Bootstrap -->
+<!-- Bootstrap4 local -->
 <link rel="stylesheet" href="css/bootstrap4/css/bootstrap-grid.css">
 <link rel="stylesheet" href="css/bootstrap4/css/bootstrap-grid.css.map">
 <link rel="stylesheet" href="css/bootstrap4/css/bootstrap-grid.min.css">
@@ -37,33 +36,30 @@ foreach($all as $f) {
 <link rel="stylesheet" href="css/bootstrap4/css/bootstrap.css">
 <link rel="stylesheet" href="css/bootstrap4/css/bootstrap.css.map">
 <link rel="stylesheet" href="css/bootstrap4/css/bootstrap.min.css.map">
-<!-- Bootstrap js -->
+<!-- Bootstrap4 online-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<!-- Bootstrap4 script local -->
 <link rel="stylesheet" href="css/bootstrap4/js/bootstrap.js">
 <link rel="stylesheet" href="css/bootstrap4/js/bootstrap..min.js">
-<!-- Normalize -->
+<!-- Normalize online-->
 <link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
-<!-- Latest compiled and minified CSS -->
+<!-- Bootstrap3 online-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
+<!-- Bootstrap3 theme online-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- Favicon -->
 <link rel="icon" type="image/png" href="content/logos/db.png" />
-<title>Djaâfar BOUMAZA || ePortfolio </title><!-- Materialize 
-      <link rel="stylesheet" type="text/css" media="screen,projection" href="css/materialize/css/materialize.min.css" />
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
-    -->
+<title>Djaâfar BOUMAZA || ePortfolio </title>
 </head>
-
 <body>
-    <header class="container-fluid row header" id="header"></header>
+    <header class="container-fluid header" id="header">
+      
+    </header>
   <!-- PROFIL DESCRIPTION PREVISUALITION TECHNO -->
   <section class="container-fluid">
     <div class="row body-section">
 
-      <div class="col-md-4 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 block-profil">
+      <div class="fixed-top col-md-4 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 block-profil">
         <div class="col-md-offset-4 col-md-4 col-md-offset-4 col-sm-offset-4 profil-header">
           <img class="photo-profil" src="./content/photo/moi/photo-reseaux.png" alt="Photo de Djaafar BOUMAZA">
         </div>
@@ -173,5 +169,9 @@ foreach($all as $f) {
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <!-- BootstrapScript3 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Bootstrap script4 -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
   </body>
 </html>

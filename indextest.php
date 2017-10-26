@@ -18,6 +18,129 @@
 <title>Djaâfar BOUMAZA || ePortfolio </title>
 </head>
 <body>
+
+<header>
+<!-- container Layout-->
+<div class="container layout">
+        <div class="navbar navbar-default" role="navigation"> <!-- bloc navigation -->
+          <!-- Navbar header contient le button-->
+          <div class="navbar-header">
+            <!-- Button vide -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <!-- 3 bar de barre pour le button -->
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <span class="navbar-brand">Responsive demo</span>
+          </div>
+
+          <div class="navbar-collapse collapse"> <!-- collapse fais disparaitre les lien au rétrécissement de la page-->
+            <ul class="nav navbar-nav"> <!-- devient une navigation-->
+              <li><a href="#">Lien</a></li>
+              <li><a href="#">Lien</a></li>
+              <li><a href="#">Lien</a></li>
+              <li><a href="#">Lien</a></li>
+              <li><a href="#">Lien</a></li>
+              <li><a href="#">Lien</a></li>
+            </ul>
+          </div> <!-- /navbar -->
+        </div>
+        
+        <!-- Premier row -->
+        <div class="row hidden-xs">
+        <!-- 2 cologne -->
+          <div class="col-xs-4">
+            <p>Super ipsum dolor sit amet consectetur adipisicing elit. Cum ut ad a est dolores reprehenderit, fugit vero eligendi laboriosam facilis.</p>
+          </div>
+          <div class="col-xs-4">
+            <p>Cool ipsum dolor sit amet consectetur adipisicing elit. Cum ut ad a est dolores reprehenderit, fugit vero eligendi laboriosam facilis.</p>
+          </div>
+        </div>
+        <!-- Premier /row -->
+        <!-- Second row -->
+        <div class="row">
+          <div class="col-lg-6">
+              <p class="visible-xs"><strong>Tu ne me vérra que si tu passe sur un écrans de taille mobile, la propriété hidden-xs, permet de cacher, et la propriété visible-xs permet d'afficher, sa peut aussi bien être du sm, md ou lg.</strong></p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ut ad a est dolores reprehenderit, fugit vero eligendi laboriosam facilis.</p>
+          </div>
+          <div class="col-lg-6">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ut ad a est dolores reprehenderit, fugit vero eligendi laboriosam facilis.</p>
+          </div>
+        </div>
+        <!-- Second /row -->
+        <!-- Troisieme row -->
+       <div class="row">
+       <!-- Panel -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <p>aaaaLorem ipsum dolor, sit amet consectetur adipisicing elit. Labore cumque soluta officiis nulla sint tempora enim est dicta quidem aperiam? </p>
+              </div>
+            </div>
+          </div>
+          <!--Panel duplicate -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <p>aaaaLorem ipsum dolor, sit amet consectetur adipisicing elit. Labore cumque soluta officiis nulla sint tempora enim est dicta quidem aperiam? </p>
+              </div>
+            </div>
+          </div>
+          <!--Panel duplicate -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <p>aaaaLorem ipsum dolor, sit amet consectetur adipisicing elit. Labore cumque soluta officiis nulla sint tempora enim est dicta quidem aperiam? </p>
+              </div>
+            </div>
+          </div>
+          <!--Panel duplicate -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <p>aaaaLorem ipsum dolor, sit amet consectetur adipisicing elit. Labore cumque soluta officiis nulla sint tempora enim est dicta quidem aperiam? </p>
+              </div>
+            </div>
+          </div>
+          <!--Panel duplicate -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <p>aaaaLorem ipsum dolor, sit amet consectetur adipisicing elit. Labore cumque soluta officiis nulla sint tempora enim est dicta quidem aperiam? </p>
+              </div>
+            </div>
+          </div>
+          <!--Panel duplicate -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <p>aaaaLorem ipsum dolor, sit amet consectetur adipisicing elit. Labore cumque soluta officiis nulla sint tempora enim est dicta quidem aperiam? </p>
+              </div>
+            </div>
+          </div>
+          <!--Panel duplicate -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <p>aaaaLorem ipsum dolor, sit amet consectetur adipisicing elit. Labore cumque soluta officiis nulla sint tempora enim est dicta quidem aperiam? </p>
+              </div>
+            </div>
+          </div>
+          <!--Panel duplicate -->
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <p>aaaaLorem ipsum dolor, sit amet consectetur adipisicing elit. Labore cumque soluta officiis nulla sint tempora enim est dicta quidem aperiam? </p>
+              </div>
+            </div>
+          </div> <!-- /Panel -->
+       </div> <!-- Troisieme /row -->
+      </div> <!-- /container -->
+</header>
+
 <div class="row">
   <div class="col-md-1">.col-md-1</div>
   <div class="col-md-1">.col-md-1</div>
