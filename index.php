@@ -28,25 +28,21 @@ foreach($all as $f) {
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><link rel="stylesheet" href="css/bootstrap4/css/bootstrap.min.css" />
 <!-- CSS -->
 <link rel="stylesheet" href="css/style.css" />
-<!-- Bootstrap4 local -->
-<link rel="stylesheet" href="css/bootstrap4/css/bootstrap-grid.css">
-<link rel="stylesheet" href="css/bootstrap4/css/bootstrap-grid.css.map">
-<link rel="stylesheet" href="css/bootstrap4/css/bootstrap-grid.min.css">
-<link rel="stylesheet" href="css/bootstrap4/css/bootstrap-grid.min.css.map">
-<link rel="stylesheet" href="css/bootstrap4/css/bootstrap.css">
-<link rel="stylesheet" href="css/bootstrap4/css/bootstrap.css.map">
-<link rel="stylesheet" href="css/bootstrap4/css/bootstrap.min.css.map">
-<!-- Bootstrap4 online-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<!-- Bootstrap4 script local -->
-<link rel="stylesheet" href="css/bootstrap4/js/bootstrap.js">
-<link rel="stylesheet" href="css/bootstrap4/js/bootstrap..min.js">
 <!-- Normalize online-->
 <link rel="stylesheet" href="https://necolas.github.io/normalize.css/7.0.0/normalize.css">
 <!-- Bootstrap3 online-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <!-- Bootstrap3 theme online-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- Bootstrap3 theme local-->
+<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/bootstrap-theme.css">
+<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/bootstrap-theme.css.map">
+<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/bootstrap-theme.min.css">
+<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/bootstrap-theme.min.css.map">
+<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/bootstrap.css.map">
+<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/bootstrap.min.css.map">
 <!-- Favicon -->
 <link rel="icon" type="image/png" href="content/logos/db.png" />
 <title>Djaâfar BOUMAZA || ePortfolio </title>
@@ -157,21 +153,17 @@ foreach($all as $f) {
     -->
     <footer class="container-fluid block-footer">
       <div class="row">
-        <div class="col-md-12 black">bla</div>
-        <div class="col-md-12 grey">bli</div>
+        <div class="col-md-12 black">blablibloup</div>
+        <div class="col-md-12 grey">bliblabloup</div>
       </div>
     </footer>
 
     <!-- Volet js -->
     <script src="./script.js"></script>
-    <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <!-- BootstrapScript3 -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!-- Bootstrap script4 -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> -->
   </body>
 </html>
