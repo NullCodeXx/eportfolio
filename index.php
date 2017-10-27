@@ -1,31 +1,10 @@
-<?php
-
-$all = scandir('projects');
-$projects = [];
-
-foreach($all as $f) {
-  //Vérifie si le dossier projects existe sinon création du dossier.
-  // if(!mkdir('./projects', 753, true)) { //Permet la création de répertoires imbriqués spécifiés dans le pathname
-  //   die("Error, echec de la création du dossier.");
-  // }
-  //test si point ignore , fichier cacher.
-  if($f[0] === ".") {
-    continue;
-  }
-  //Vérifie les fichiers.
-  if (!is_dir('projects/' . $f)) {
-    continue;
-  }
-  //add projet dans le tableau.
-  $projects[]= $f;
-}
-?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"><link rel="stylesheet" href="css/bootstrap4/css/bootstrap.min.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 <!-- CSS -->
 <link rel="stylesheet" href="css/style.css" />
 <!-- Normalize online-->
@@ -35,24 +14,44 @@ foreach($all as $f) {
 <!-- Bootstrap3 theme online-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 <!-- Bootstrap3 theme local-->
-<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/bootstrap-theme.css">
-<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/bootstrap-theme.css.map">
-<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/bootstrap-theme.min.css">
-<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/bootstrap-theme.min.css.map">
-<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/bootstrap.css">
-<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/bootstrap.css.map">
-<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/bootstrap.min.css">
-<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/bootstrap.min.css.map">
+<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+<link rel="stylesheet" href="css/bootstrap-3.3.7-dist/css/bootstrap.css">
 <!-- Favicon -->
 <link rel="icon" type="image/png" href="content/logos/db.png" />
 <title>Djaâfar BOUMAZA || ePortfolio </title>
 </head>
+
 <body>
     <header class="container-fluid header" id="header">
-      
+          <div class="container-fluid">
+          <div>
+          <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid nav-header-color">
+          <!-- Button + titre -->  
+          <div class="navbar-header">  
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only"><font style="vertical-align: inherit;color: #fff;">Basculer le menu navigation</font></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand nav-link-color" href="#"><font style="vertical-align: inherit;color: #fff;">D.BOUMAZA</font></a>
+          </div>
+          <!-- Liens -->
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#competences"><font style="vertical-align: inherit;color: #fff;">Compétence</font></a></li>
+              <li><a href="#contact"><font style="vertical-align: inherit;color: #fff;">Contact</font></a></li>
+              <li class="#projets"><a href="#"><font style="vertical-align: inherit;color: #fff;">Projets</font></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+          </div>
     </header>
-  <!-- PROFIL DESCRIPTION PREVISUALITION TECHNO -->
-  <section class="container-fluid">
+  
+     <!-- PROFIL DESCRIPTION PREVISUALITION TECHNO -->
+ <section class="container-fluid">
     <div class="row body-section">
 
       <div class="fixed-top col-md-4 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 block-profil">
@@ -117,7 +116,7 @@ foreach($all as $f) {
           <table class="table table-bordered table-striped table-condensed">
             <div class="col-md-offset-0 col-md-6 col-xs-offset-0">
                 <div class="col-md-12 col-xs-offset-0 col-sm-offset-0">
-                  <!-- <img class="col-md-6 preview-project-game" src="./content/photo/project/game.png" alt="image projet" /> -->
+                  <img class="col-md-6 preview-project-game" src="./content/photo/project/game.png" alt="image projet" /> -->
                   <img class="preview-project" src="./content/photo/project/game1.png" alt="image projet" />
                 </div>
             </div>
@@ -136,21 +135,7 @@ foreach($all as $f) {
       </div>
     </div>
   </section>
-    <!--
-    Volet Deroulant
 
-    <button class="button" class="btnViewProject">Voir mes projets</button>
-    <section class="main">
-        <h2 class="insidemain"><span class="titleProject">Mes Projets</span></h2>
-        <hr class="hrUnderTitle">
-        <div class="scrollmain">
-          <ul class="ulProject"> 
-            <?php foreach($projects as $p) { ?><li><p class='parafProject'><a class="link-project" href="<?php echo 'projects/' .$p;?>"><?php echo 'projects/' .$p;?></a></p></li><?php } ?>
-          </ul>
-        </div>
-    </section>
-    FIN VOLET
-    -->
     <footer class="container-fluid block-footer">
       <div class="row">
         <div class="col-md-12 black">blablibloup</div>
@@ -158,12 +143,14 @@ foreach($all as $f) {
       </div>
     </footer>
 
-    <!-- Volet js -->
+    <!-- Volet déroulant js -->
     <script src="./script.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <!-- BootstrapScript3 -->
+    <!-- BootstrapScript3 online-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- BootstrapScript3 local-->
+    <script src="css/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   </body>
 </html>
