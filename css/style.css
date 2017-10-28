@@ -1,3 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    src: url("../content/fontface/amita-regular.ttf");
+    font-family: "amita-regular.ttf";
+}
+
+
 /* KEYFRAMES START PAGE */
 
 @keyframes start {
@@ -37,15 +48,76 @@
 }
 
 
-/* ADD FONT-FACE */
+/*
+@MEDIA OPERATOR
+    and "et",
+    only "uniquement"
+    not "non".
+    "ou", il suffit d'énumérer différentes media queries à la suite, séparées par des virgules : 
+    si l'une d'entre elles est valable, alors l'ensemble de la règle sera appliquée.
+ */
 
-@font-face {
-    src: url("../content/fontface/amita-regular.ttf");
-    font-family: "amita-regular.ttf";
+
+/* Très petits appareils Téléphones exception (largeur < 567px)	*/
+
+@media screen and (max-width: 576px) {
+    .photo-profil {
+        height: 20em;
+        width: 80%;
+        margin: 3%;
+        border: 2px solid #129888;
+        border-radius: 10px;
+    }
 }
 
 
-/* Sans media */
+/* Très petits appareils Téléphones (largeur < 768px)	*/
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .photo-profil {
+        height: 100%;
+        width: 100%;
+        border: 2px solid #129888;
+        border-radius: 10px;
+    }
+}
+
+
+/* Petits appareils Tablettes (largeur ≥ 768px) et (largeur < 992) */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .photo-profil {
+        height: 100%;
+        width: 50%;
+        border: 2px solid #ff0000;
+        border-radius: 10px;
+        margin-left: -55%;
+    }
+}
+
+
+/* Ordinateur de bureau de taille moyens (largeur ≥ 992px)*/
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    .photo-profil {
+        height: 100%;
+        width: 100%;
+        border: 2px solid #129888;
+        border-radius: 10px;
+    }
+}
+
+
+/* Ordinateur de bureau de grande taille(largeur ≥ 1200px)*/
+
+@media screen and (min-width: 1200px) {
+    .photo-profil {
+        height: 100%;
+        width: 100%;
+        border: 2px solid #129888;
+        border-radius: 10px;
+    }
+}
 
 #header {
     height: 9em;
@@ -74,7 +146,6 @@
     margin-top: -5%;
     padding: 1%;
     position: fixed;
-    overflow-y: scroll;
 }
 
 .name {
@@ -83,12 +154,23 @@
     font-family: "amita-regular.ttf";
 }
 
-.block-project {
+.block-biographie {
+    height: 20em;
+    overflow: scroll;
+    background-color: black;
+}
+
+.container-block-project {
     height: 35em;
     background-color: rgb(14, 44, 42);
     border-radius: 2px;
-    overflow-y: scroll;
-    overflow-x: scroll;
+    overflow: scroll;
+}
+
+.block-project {
+    height: 30em;
+    overflow: scroll;
+    background-color: black;
 }
 
 .name-project {
@@ -106,6 +188,23 @@
 .preview-project {
     height: 10em;
     width: 100%;
+    border-radius: 5px;
+    filter: drop-shadow(6px 1px 10px black);
+    /* Safari */
+    -webkit-filter: blur(1px);
+    filter: blur(5px);
+}
+
+.preview-project:hover {
+    height: 10em;
+    width: 100%;
+    filter: opacity(50%);
+}
+
+#logos-languages {
+    height: 2em;
+    width: 30px;
+    margin: 5%;
 }
 
 .profil-header {
@@ -113,13 +212,6 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-}
-
-.photo-profil {
-    height: 100%;
-    width: 100%;
-    border: 2px solid #129888;
-    border-radius: 10px;
 }
 
 #logos-reseaux1 {
@@ -169,7 +261,7 @@
     font-family: "amita-regular.ttf";
 }
 
-*/
+
 /* Footer */
 
 .black {
@@ -181,617 +273,3 @@
     height: 15em;
     background-color: #232323;
 }
-
-
-/* 
-AVEC MEDIA QUERY
-*/
-
-
-/* 
-    and "et",
-    only "uniquement"
-    not "non".
-    "ou", il suffit d'énumérer différentes media queries à la suite, séparées par des virgules : 
-    si l'une d'entre elles est valable, alors l'ensemble de la règle sera appliquée.
- */
-
-
-/* Très petits appareils Téléphones exception (largeur < 567px)	*/
-
-
-/*
-@media screen and (max-width: 576px) {
-    #header {
-        height: 6em;
-        background-color: rgb(14, 44, 42);
-    }
-    .header {}
-    .nav-header-color {
-        background-color: rgb(14, 44, 42);
-    }
-    .nav-link-color {
-        color: #fff;
-    }
-    .body-section {
-        height: 100%;
-        background-color: lightsalmon;
-    }
-    .block-profil {
-        height: 100%;
-        background-color: rgb(255, 255, 255);
-        border: 1px solid #129888;
-        border-radius: 2px;
-        margin-left: 8.33333333%;
-    }
-    .name {
-        font-size: 1em;
-        font-weight: 900;
-        font-family: "amita-regular.ttf";
-    }
-    .block-project {
-        height: 30em;
-        background-color: rgb(14, 44, 42);
-        border-radius: 2px;
-        margin-left: 8.33333333%;
-        overflow-y: scroll;
-        overflow-x: scroll;
-    }
-    .project-header {
-        background-color: #129888;
-    }
-    .project-body {
-        color: #fff;
-    }
-    .preview-project {
-        height: 10em;
-        width: 100%;
-    }
-    .profil-header {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-    .photo-profil {
-        height: 20em;
-        width: 80%;
-        margin: 3%;
-        border: 2px solid #129888;
-        border-radius: 10px;
-    }
-    #logos-reseaux1 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux2 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux3 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux4 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux5 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux6 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    .biographie {
-        font-weight: 900;
-        font-family: "amita-regular.ttf";
-    } */
-
-
-/* Footer */
-
-
-/* .black {
-        height: 3em;
-        background-color: #191919;
-    }
-    .grey {
-        height: 15em;
-        background-color: #232323;
-    }
-} */
-
-
-/* Très petits appareils Téléphones (largeur < 768px)	*/
-
-
-/* 
-@media screen and (min-width: 576px) and (max-width: 768px) {
-    #header {
-        height: 6em;
-        background-color: rgb(14, 44, 42);
-    }
-    .header {}
-    .nav-header-color {
-        background-color: rgb(14, 44, 42);
-    }
-    .nav-link-color {
-        color: #fff;
-    }
-    .body-section {
-        height: 100%;
-        background-color: rgb(248, 50, 0);
-    }
-    .block-profil {
-        height: 50em;
-        background-color: rgb(255, 255, 255);
-        border-radius: 2px;
-        margin-top: -5%;
-        padding: 1%;
-        position: fixed;
-        overflow-x: scroll;
-    }
-    .name {
-        font-size: 1em;
-        font-weight: 900;
-        font-family: "amita-regular.ttf";
-    }
-    .block-project {
-        height: 35em;
-        background-color: rgb(14, 44, 42);
-        border-radius: 2px;
-        margin-left: 8.33333333%;
-        overflow-y: scroll;
-        overflow-x: scroll;
-    }
-    .project-header {
-        background-color: #129888;
-    }
-    .project-body {
-        color: #fff;
-    }
-    .preview-project {
-        height: 10em;
-        width: 100%;
-    }
-    .profil-header {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-    .photo-profil {
-        height: 100%;
-        width: 100%;
-        border: 2px solid #129888;
-        border-radius: 10px;
-    }
-    #logos-reseaux1 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux2 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux3 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux4 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux5 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux6 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    .biographie {
-        font-weight: 900;
-        font-family: "amita-regular.ttf";
-    } */
-
-
-/* Footer */
-
-
-/* .black {
-        height: 3em;
-        background-color: #191919;
-    }
-    .grey {
-        height: 15em;
-        background-color: #232323;
-    }
-} */
-
-
-/* Petits appareils Tablettes (largeur ≥ 768px)*/
-
-
-/* 
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    #header {
-        height: 7em;
-        background-color: rgb(14, 44, 42);
-    }
-    .header {}
-    .nav-header-color {
-        background-color: rgb(14, 44, 42);
-    }
-    .nav-link-color {
-        color: #fff;
-    }
-    .body-section {
-        height: 100%;
-        background-color: rgb(255, 157, 0);
-    }
-    .block-profil {
-        height: 50em;
-        background-color: rgb(255, 255, 255);
-        border-radius: 2px;
-        margin-top: -5%;
-        padding: 1%;
-        position: fixed;
-        overflow-x: scroll;
-    }
-    .name {
-        font-size: 1em;
-        font-weight: 900;
-        font-family: "amita-regular.ttf";
-    }
-    .block-project {
-        height: 35em;
-        background-color: rgb(14, 44, 42);
-        border-radius: 2px;
-        margin-left: 8.33333333%;
-        overflow-y: scroll;
-        overflow-x: scroll;
-    }
-    .project-header {
-        background-color: #129888;
-    }
-    .project-body {
-        color: #fff;
-    }
-    .preview-project {
-        height: 10em;
-        width: 100%;
-    }
-    .profil-header {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-    .photo-profil {
-        height: 100%;
-        width: 100%;
-        border: 2px solid #129888;
-        border-radius: 10px;
-    }
-    #logos-reseaux1 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux2 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux3 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux4 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux5 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux6 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    .biographie {
-        font-weight: 900;
-        font-family: "amita-regular.ttf";
-    } */
-
-
-/* Footer */
-
-
-/* .black {
-        height: 3em;
-        background-color: #191919;
-    }
-    .grey {
-        height: 15em;
-        background-color: #232323;
-    }
-} */
-
-
-/* Ordinateurs de bureau moyens (largeur ≥ 992px) */
-
-
-/* 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-    #header {
-        height: 8em;
-        background-color: rgb(14, 44, 42);
-    }
-    .header {}
-    .nav-header-color {
-        background-color: rgb(14, 44, 42);
-    }
-    .nav-link-color {
-        color: #fff;
-    }
-    .body-section {
-        height: 100%;
-        background-color: rgb(238, 255, 0);
-    }
-    .block-profil {
-        height: 50em;
-        background-color: rgb(255, 255, 255);
-        border-radius: 2px;
-        margin-top: -5%;
-        padding: 1%;
-        position: fixed;
-        overflow-x: scroll;
-    }
-    .name {
-        font-size: 1em;
-        font-weight: 900;
-        font-family: "amita-regular.ttf";
-    }
-    .block-project {
-        height: 35em;
-        background-color: rgb(14, 44, 42);
-        border-radius: 2px;
-        overflow-y: scroll;
-        overflow-x: scroll;
-    }
-    .project-header {
-        background-color: #129888;
-    }
-    .project-body {
-        color: #fff;
-    }
-    .preview-project {
-        height: 10em;
-        width: 100%;
-    }
-    .profil-header {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-    .photo-profil {
-        height: 100%;
-        width: 100%;
-        border: 2px solid #129888;
-        border-radius: 10px;
-    }
-    #logos-reseaux1 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux2 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux3 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux4 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux5 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux6 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    .biographie {
-        font-weight: 900;
-        font-family: "amita-regular.ttf";
-    } */
-
-
-/* Footer */
-
-
-/* .black {
-        height: 3em;
-        background-color: #191919;
-    }
-    .grey {
-        height: 15em;
-        background-color: #232323;
-    }
-} */
-
-
-/* Ordinateurs de bureau de grande taille (largeur ≥ 1200px)*/
-
-
-/* 
-@media screen and (min-width: 1200px) {
-    #header {
-        height: 9em;
-        background-color: rgb(14, 44, 42);
-    }
-    .header {}
-    .nav-header-color {
-        background-color: rgb(14, 44, 42);
-    }
-    .nav-link-color {
-        color: #fff;
-    }
-    .body-section {
-        height: 100%;
-        background-color: rgb(255, 255, 255);
-    }
-    .block-profil {
-        height: 50em;
-        background-color: rgb(255, 255, 255);
-        border-radius: 2px;
-        margin-top: -5%;
-        padding: 1%;
-        position: fixed;
-        overflow-y: scroll;
-    }
-    .name {
-        font-size: 2em;
-        font-weight: 900;
-        font-family: "amita-regular.ttf";
-    }
-    .block-project {
-        height: 35em;
-        background-color: rgb(14, 44, 42);
-        border-radius: 2px;
-        overflow-y: scroll;
-        overflow-x: scroll;
-    }
-    .name-project {
-        color: rgb(14, 44, 42);
-    }
-    .project-header {
-        background-color: #129888;
-    }
-    .project-body {
-        color: #fff;
-    }
-    .preview-project {
-        height: 10em;
-        width: 100%;
-    }
-    .profil-header {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-    .photo-profil {
-        height: 100%;
-        width: 100%;
-        border: 2px solid #129888;
-        border-radius: 10px;
-    }
-    #logos-reseaux1 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux2 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux3 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux4 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux5 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    #logos-reseaux6 {
-        height: 2em;
-        width: 30px;
-        border-radius: 100%;
-        margin: 15%;
-    }
-    .biographie {
-        font-weight: 900;
-        font-family: "amita-regular.ttf";
-    } */
-
-
-/* Footer */
-
-
-/* .black {
-        height: 3em;
-        background-color: #191919;
-    }
-    .grey {
-        height: 15em;
-        background-color: #232323;
-    }
-} */

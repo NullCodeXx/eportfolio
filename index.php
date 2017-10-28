@@ -54,8 +54,8 @@
  <section class="container-fluid">
     <div class="row body-section">
 
-      <div class="fixed-top col-md-4 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 block-profil">
-        <div class="col-md-offset-4 col-md-4 col-md-offset-4 col-sm-offset-4 profil-header">
+      <div class="fixed-top col-md-4 col-md-offset-1 col-xs-offset-0 block-profil">
+        <div class="container-fluid col-md-offset-4 col-md-4 col-md-offset-4 col-sm-offset-4 col-sx-offset-2 col-xs-8 col-sx-offset-2 profil-header">
           <img class="photo-profil" src="./content/photo/moi/photo-reseaux.png" alt="Photo de Djaafar BOUMAZA">
         </div>
 
@@ -64,7 +64,6 @@
             <br />
            <span>Développeur web full stack</span></h1>   
         </div>
-
         <div class="container row col-md-offset-2 col-sm-9 col-sm-offset-2 col-xs-offset-1">
           <ul class="list-inline list-unstyled reseaux">
             <li><a href="https://github.com/djaafarcode" target="_blank" title="Voir mes projets Github"><img id="logos-reseaux1" src="./content/logos/github.svg" alt="Logo Github"></a></li>
@@ -76,8 +75,8 @@
           </ul>
         </div>
 
-        <div class="container row">
-          <h3 class="col-md-offset-2 col-xs-offset-1 biographie">Biographie</h3>
+        <div class="container col-md-12 block-biographie">
+          <h3 class="col-md-offset-2 col-xs-offset-1">Biographie</h3>
           <p class="col-md-offset-2 col-xs-offset-1">
             Etant précédemment en fonction Aide Soignant au près des personnes en difficultés j'ai pus saisir l'opportunité d'être admis à Simplon dans le milieu de la programmation web.
             <br />
@@ -88,12 +87,12 @@
             Je vous dis a très bientôt, bon code !
           </p>
         </div>
-
       </div>
-      <div class="col-md-6 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 block-project">
-        <div class="col-md-12 project-header">
+
+      <div class="col-md-6 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 container-block-project">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 project-header">
         <h2 class="text-center"><span class="name-project">Zone de développement</span></h2></div>
-        <div class="col-md-12 project-body">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 project-body block-project">
             <p class="lead text-center col-xs-offset-1">Visualizer mes projets ? <stron>Simplon.co</strong></p>
           <table class="table table-bordered table-striped table-condensed">
             <div class="col-md-offset-0 col-md-6 col-xs-offset-0">
@@ -106,9 +105,13 @@
               <dt>Driiveme</dt>
               <dd>Reproduction du site Driiveme.com</dd>
               <ul class="list-inline list-unstyled">
-                <li>logoHtml</li>
-                <li>logoCss</li>
-                <li>Etc...</li>
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/js.svg" alt="JavaScript"></li>
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/html-5.svg" alt="HTML5"></li>
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/css-3.svg" alt="CSS3"></li>
+                <!-- <li><img id="logos-languages" title="languages de programmation" src="./content/logos/php.svg" alt="PHP"></li>
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/sql.svg" alt="SQL"></li>
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/nodejs.svg" alt="NodeJS"></li>
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/json.svg" alt="JSON"></li> -->
               </ul>
             </div>
           </table>
@@ -116,7 +119,6 @@
           <table class="table table-bordered table-striped table-condensed">
             <div class="col-md-offset-0 col-md-6 col-xs-offset-0">
                 <div class="col-md-12 col-xs-offset-0 col-sm-offset-0">
-                  <img class="col-md-6 preview-project-game" src="./content/photo/project/game.png" alt="image projet" /> -->
                   <img class="preview-project" src="./content/photo/project/game1.png" alt="image projet" />
                 </div>
             </div>
@@ -138,8 +140,8 @@
 
     <footer class="container-fluid block-footer">
       <div class="row">
-        <div class="col-md-12 black">blablibloup</div>
-        <div class="col-md-12 grey">bliblabloup</div>
+        <div class="col-md-12 black">Black</div>
+        <div class="col-md-12 grey">Grey Black</div>
       </div>
     </footer>
 
