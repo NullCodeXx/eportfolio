@@ -4,8 +4,8 @@ body {
 }
 
 @font-face {
-    src: url("../content/fontface/amita-regular.ttf");
-    font-family: "amita-regular.ttf";
+    src: url("../content/fontface/GloriaHallelujah.ttf");
+    font-family: "GloriaHallelujah.ttf";
 }
 
 
@@ -60,64 +60,27 @@ body {
 
 /* Très petits appareils Téléphones exception (largeur < 567px)	*/
 
-@media screen and (max-width: 576px) {
-    .photo-profil {
-        height: 20em;
-        width: 80%;
-        margin: 3%;
-        border: 2px solid #129888;
-        border-radius: 10px;
-    }
-}
+@media screen and (max-width: 576px) {}
 
 
 /* Très petits appareils Téléphones (largeur < 768px)	*/
 
-@media screen and (min-width: 576px) and (max-width: 768px) {
-    .photo-profil {
-        height: 100%;
-        width: 100%;
-        border: 2px solid #129888;
-        border-radius: 10px;
-    }
-}
+@media screen and (min-width: 576px) and (max-width: 768px) {}
 
 
 /* Petits appareils Tablettes (largeur ≥ 768px) et (largeur < 992) */
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    .photo-profil {
-        height: 100%;
-        width: 50%;
-        border: 2px solid #ff0000;
-        border-radius: 10px;
-        margin-left: -55%;
-    }
-}
+@media screen and (min-width: 768px) and (max-width: 992px) {}
 
 
 /* Ordinateur de bureau de taille moyens (largeur ≥ 992px)*/
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-    .photo-profil {
-        height: 100%;
-        width: 100%;
-        border: 2px solid #129888;
-        border-radius: 10px;
-    }
-}
+@media screen and (min-width: 992px) and (max-width: 1200px) {}
 
 
 /* Ordinateur de bureau de grande taille(largeur ≥ 1200px)*/
 
-@media screen and (min-width: 1200px) {
-    .photo-profil {
-        height: 100%;
-        width: 100%;
-        border: 2px solid #129888;
-        border-radius: 10px;
-    }
-}
+@media screen and (min-width: 1200px) {}
 
 #header {
     height: 9em;
@@ -148,16 +111,35 @@ body {
     position: fixed;
 }
 
+.photo-profil {
+    height: 100%;
+    width: 100%;
+    border: 2px solid #129888;
+    border-radius: 10px;
+}
+
 .name {
     font-size: 2em;
     font-weight: 900;
-    font-family: "amita-regular.ttf";
+    font-family: "GloriaHallelujah.ttf";
+}
+
+.job-function {
+    font-family: "GloriaHallelujah.ttf";
+    color: #129888;
 }
 
 .block-biographie {
     height: 20em;
     overflow: scroll;
-    background-color: black;
+    color: #6d6963;
+    font-family: "GloriaHallelujah.ttf";
+}
+
+.biographie {
+    color: #129888;
+    font-weight: 900;
+    font-family: "GloriaHallelujah.ttf";
 }
 
 .container-block-project {
@@ -170,7 +152,8 @@ body {
 .block-project {
     height: 30em;
     overflow: scroll;
-    background-color: black;
+    font-family: "GloriaHallelujah.ttf";
+    letter-spacing: 1px;
 }
 
 .name-project {
@@ -189,22 +172,70 @@ body {
     height: 10em;
     width: 100%;
     border-radius: 5px;
-    filter: drop-shadow(6px 1px 10px black);
-    /* Safari */
-    -webkit-filter: blur(1px);
-    filter: blur(5px);
+    /* Zoom */
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    /* GrayScale */
+    filter: grayscale(0.2);
+    -webkit-filter: grayscale(0.2);
+    -moz-filter: grayscale(0.2);
+    -o-filter: grayscale(0.2);
+    -ms-filter: grayscale(0.2);
 }
 
 .preview-project:hover {
     height: 10em;
     width: 100%;
-    filter: opacity(50%);
+    border-radius: 5px;
+    /* Zoom */
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    /* GrayScale */
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
 }
 
 #logos-languages {
     height: 2em;
     width: 30px;
     margin: 5%;
+    /* Zoom */
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    /* GrayScale */
+    filter: grayscale(1);
+    -webkit-filter: grayscale(0.6);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+}
+
+#logos-languages:hover {
+    height: 2em;
+    width: 30px;
+    margin: 5%;
+    /* Zoom */
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    /* GrayScale */
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
 }
 
 .profil-header {
@@ -214,58 +245,48 @@ body {
     align-items: center;
 }
 
-#logos-reseaux1 {
+#logos-reseaux {
     height: 2em;
     width: 30px;
     border-radius: 100%;
     margin: 15%;
+    /* Zoom */
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    /* GrayScale */
+    filter: grayscale(1);
+    -webkit-filter: grayscale(0.3);
+    -moz-filter: grayscale(0.3);
+    -o-filter: grayscale(0.3);
+    -ms-filter: grayscale(0.3);
 }
 
-#logos-reseaux2 {
+#logos-reseaux:hover {
     height: 2em;
     width: 30px;
     border-radius: 100%;
     margin: 15%;
-}
-
-#logos-reseaux3 {
-    height: 2em;
-    width: 30px;
-    border-radius: 100%;
-    margin: 15%;
-}
-
-#logos-reseaux4 {
-    height: 2em;
-    width: 30px;
-    border-radius: 100%;
-    margin: 15%;
-}
-
-#logos-reseaux5 {
-    height: 2em;
-    width: 30px;
-    border-radius: 100%;
-    margin: 15%;
-}
-
-#logos-reseaux6 {
-    height: 2em;
-    width: 30px;
-    border-radius: 100%;
-    margin: 15%;
-}
-
-.biographie {
-    font-weight: 900;
-    font-family: "amita-regular.ttf";
+    /* Zoom */
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    /* GrayScale */
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    -ms-filter: grayscale(0);
 }
 
 
 /* Footer */
 
 .black {
-    height: 3em;
+    height: 15em;
     background-color: #191919;
 }
 

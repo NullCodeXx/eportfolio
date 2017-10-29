@@ -61,22 +61,22 @@
 
         <div class="col-md-12">
           <h1 class="lead text-center"><span class="name">DJAAFAR BOUMAZA</span>
-            <br />
-           <span>Développeur web full stack</span></h1>   
+          <br />
+          <span class="job-function">Développeur web full stack</span></h1>   
         </div>
         <div class="container row col-md-offset-2 col-sm-9 col-sm-offset-2 col-xs-offset-1">
           <ul class="list-inline list-unstyled reseaux">
-            <li><a href="https://github.com/djaafarcode" target="_blank" title="Voir mes projets Github"><img id="logos-reseaux1" src="./content/logos/github.svg" alt="Logo Github"></a></li>
-            <li><a href="https://plus.google.com/102441240849299749508" target="_blank" title="Visitez mon compte Google Plus"><img id="logos-reseaux2" src="./content/logos/google-plus.svg" alt="Logo Google Plus"></a></li>
-            <li><a href="https://www.linkedin.com/in/djaafar-boumaza-84a867146/" target="_blank" title="Voir mon profil Linkedin"><img id="logos-reseaux3" src="./content/logos/linkedin.svg" alt="Logo Linkedin"></a></li>
-            <li><a href="https://twitter.com/djaafarcode?lang=fr" target="_blank" title="Visitez mon twitter"><img id="logos-reseaux4" src="./content/logos/twitter.svg" alt="Logo Twitter"></a></li>
-            <li><a href="mailto:code-db_@outlook.fr" target="_blank" title="Me contacter"><img id="logos-reseaux5" src="./content/logos/mail.svg" alt="Logo E-Mail"></a></li>
-            <li><a href="content/documents/Djaafar_BOUMAZA.pdf" target="_blank" title="Télécharger mon CV"><img id="logos-reseaux6" src="./content/logos/download.png" alt="Affiche mon CV"></a></li>
+            <li><a href="https://github.com/djaafarcode" target="_blank" title="Voir mes projets Github"><img id="logos-reseaux" src="./content/logos/github.svg" alt="Logo Github"></a></li>
+            <li><a href="https://plus.google.com/102441240849299749508" target="_blank" title="Visitez mon compte Google Plus"><img id="logos-reseaux" src="./content/logos/google-plus.svg" alt="Logo Google Plus"></a></li>
+            <li><a href="https://www.linkedin.com/in/djaafar-boumaza-84a867146/" target="_blank" title="Voir mon profil Linkedin"><img id="logos-reseaux" src="./content/logos/linkedin.svg" alt="Logo Linkedin"></a></li>
+            <li><a href="https://twitter.com/djaafarcode?lang=fr" target="_blank" title="Visitez mon twitter"><img id="logos-reseaux" src="./content/logos/twitter.svg" alt="Logo Twitter"></a></li>
+            <li><a href="mailto:code-db_@outlook.fr" target="_blank" title="Me contacter"><img id="logos-reseaux" src="./content/logos/mail.svg" alt="Logo E-Mail"></a></li>
+            <li><a href="content/documents/Djaafar_BOUMAZA.pdf" target="_blank" title="Télécharger mon CV"><img id="logos-reseaux" src="./content/logos/download.png" alt="Affiche mon CV"></a></li>
           </ul>
         </div>
 
         <div class="container col-md-12 block-biographie">
-          <h3 class="col-md-offset-2 col-xs-offset-1">Biographie</h3>
+          <h3 class="col-md-offset-2 col-xs-offset-1"><span class="biographie">Biographie</span></h3>
           <p class="col-md-offset-2 col-xs-offset-1">
             Etant précédemment en fonction Aide Soignant au près des personnes en difficultés j'ai pus saisir l'opportunité d'être admis à Simplon dans le milieu de la programmation web.
             <br />
@@ -91,7 +91,8 @@
 
       <div class="col-md-6 col-md-offset-1 col-sm-offset-1 col-xs-offset-0 container-block-project">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 project-header">
-        <h2 class="text-center"><span class="name-project">Zone de développement</span></h2></div>
+        <h2 class="text-center"><span class="name-project">Zone de développement</span></h2>
+        </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 project-body block-project">
             <p class="lead text-center col-xs-offset-1">Visualizer mes projets ? <stron>Simplon.co</strong></p>
           <table class="table table-bordered table-striped table-condensed">
@@ -127,10 +128,14 @@
               <dt>Game Fight</dt>
               <dd>Jeux de combat</dd>
               <ul class="list-inline list-unstyled">
-                <li>logoHtml</li>
-                <li>logoCss</li>
-                <li>Etc...</li>
-              </ul>
+              <li><img id="logos-languages" title="languages de programmation" src="./content/logos/js.svg" alt="JavaScript"></li>
+              <li><img id="logos-languages" title="languages de programmation" src="./content/logos/html-5.svg" alt="HTML5"></li>
+              <li><img id="logos-languages" title="languages de programmation" src="./content/logos/css-3.svg" alt="CSS3"></li>
+              <li><img id="logos-languages" title="languages de programmation" src="./content/logos/php.svg" alt="PHP"></li>
+              <li><img id="logos-languages" title="languages de programmation" src="./content/logos/sql.svg" alt="SQL"></li>
+              <li><img id="logos-languages" title="languages de programmation" src="./content/logos/nodejs.svg" alt="NodeJS"></li>
+              <li><img id="logos-languages" title="languages de programmation" src="./content/logos/json.svg" alt="JSON"></li>
+            </ul>
             </div>
           </table>
         </div>
@@ -140,8 +145,8 @@
 
     <footer class="container-fluid block-footer">
       <div class="row">
-        <div class="col-md-12 black">Black</div>
-        <div class="col-md-12 grey">Grey Black</div>
+        <div class="col-md-6 black">Black</div>
+        <div class="col-md-6 grey">Grey Black</div>
       </div>
     </footer>
 
