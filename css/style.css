@@ -89,12 +89,30 @@ body {
 
 .header {}
 
-.nav-header-color {
-    background-color: rgb(14, 44, 42);
+
+/* Div for project */
+
+#contProject {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    z-index: 1;
 }
 
-.nav-link-color {
-    color: #fff;
+
+/* List of my project */
+
+#listeProject {
+    margin: auto;
+    color: white;
+    border: 1px solid white;
+}
+
+.nav-header-color {
+    background-color: rgb(14, 44, 42);
 }
 
 .body-section {
@@ -122,6 +140,7 @@ body {
     font-size: 2em;
     font-weight: 900;
     font-family: "GloriaHallelujah.ttf";
+    color: #242424;
 }
 
 .job-function {
@@ -156,12 +175,13 @@ body {
     letter-spacing: 1px;
 }
 
-.name-project {
-    color: rgb(14, 44, 42);
-}
-
 .project-header {
     background-color: #129888;
+}
+
+.name-project {
+    color: #242424;
+    font-family: "GloriaHallelujah.ttf";
 }
 
 .project-body {

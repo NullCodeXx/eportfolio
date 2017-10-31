@@ -1,3 +1,26 @@
+<?php
+
+$all = scandir('projects');
+$projects = [];
+
+foreach($all as $f) {
+  //Vérifie si le dossier projects existe sinon création du dossier.
+  // if(!mkdir('./projects', 753, true)) { //Permet la création de répertoires imbriqués spécifiés dans le pathname
+  //   die("Error, echec de la création du dossier.");
+  // }
+  //test si point ignore , fichier cacher.
+  if($f[0] === ".") {
+    continue;
+  }
+  //Vérifie les fichiers.
+  if (!is_dir('projects/' . $f)) {
+    continue;
+  }
+  //add projet dans le tableau.
+  $projects[]= $f;
+}
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -24,29 +47,43 @@
 <body>
     <header class="container-fluid header" id="header">
           <div class="container-fluid">
-          <div>
-          <nav class="navbar navbar-default navbar-fixed-top">
-          <div class="container-fluid nav-header-color">
-          <!-- Button + titre -->  
-          <div class="navbar-header">  
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only"><font style="vertical-align: inherit;color: #fff;">Basculer le menu navigation</font></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand nav-link-color" href="#"><font style="vertical-align: inherit;color: #fff;">D.BOUMAZA</font></a>
-          </div>
-          <!-- Liens -->
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
-              <li><a href="#competences"><font style="vertical-align: inherit;color: #fff;">Compétence</font></a></li>
-              <li><a href="#contact"><font style="vertical-align: inherit;color: #fff;">Contact</font></a></li>
-              <li class="#projets"><a href="#"><font style="vertical-align: inherit;color: #fff;">Projets</font></a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+            <div>
+              <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container-fluid nav-header-color">
+                  <!-- Button + titre -->  
+                  <div class="navbar-header">  
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only"><font style="vertical-align: inherit;color: #fff;">Basculer le menu navigation</font></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><font style="vertical-align: inherit;color: #fff;font-family: 'GloriaHallelujah.ttf';letter-spacing: 2px;">D.BOUMAZA</font></a>
+                  </div>
+
+                  <!-- Liens -->
+                  <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                      <li><a href="#competences" class="testcolor"><font style="vertical-align: inherit;color: #fff;font-family: 'GloriaHallelujah.ttf';letter-spacing: 2px;">Compétence</font></a></li>
+                      <li><a href="#contact"><font style="vertical-align: inherit;color: #fff;font-family: 'GloriaHallelujah.ttf';letter-spacing: 2px;">Contact</font></a></li>
+                      <!-- Btn click js for view project -->
+                      <li class="#projets" id="#display-project-script">
+                        <a href="#">
+                          <font style="vertical-align: inherit;color: #fff;font-family: 'GloriaHallelujah.ttf';letter-spacing: 2px;">
+                            <button id="displayProject">Projets</button>
+                          </font>
+                        </a>
+                      </li>
+                      <div id="contProject">
+                        <ul id="listeProject">
+                          <?php foreach($projects as $p) { ?><li><p class='parafProject'><a class="link-project" href="<?php echo 'projects/' .$p;?>"><?php echo 'projects/' .$p;?></a></p></li><?php } ?>
+                        </ul>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+            </div>
           </div>
     </header>
   
@@ -95,7 +132,9 @@
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 project-body block-project">
             <p class="lead text-center col-xs-offset-1">Visualizer mes projets ? <stron>Simplon.co</strong></p>
-          <table class="table table-bordered table-striped table-condensed">
+          
+            <!-- Drive me -->
+            <table class="table table-bordered table-striped table-condensed">
             <div class="col-md-offset-0 col-md-6 col-xs-offset-0">
                 <div class="col-md-12 col-xs-offset-0 col-sm-offset-0">
                   <img class="preview-project" src="./content/photo/project/driveme.png" alt="image projet" />
@@ -104,11 +143,11 @@
 
             <div class="col-md-offset-0 col-md-6 col-xs-offset-1">
               <dt>Driiveme</dt>
-              <dd>Reproduction du site Driiveme.com</dd>
+              <dd>Reproduction du site Driiveme.com || Utilisation des flexboxs</dd>
               <ul class="list-inline list-unstyled">
-                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/js.svg" alt="JavaScript"></li>
                 <li><img id="logos-languages" title="languages de programmation" src="./content/logos/html-5.svg" alt="HTML5"></li>
                 <li><img id="logos-languages" title="languages de programmation" src="./content/logos/css-3.svg" alt="CSS3"></li>
+                <!-- <li><img id="logos-languages" title="languages de programmation" src="./content/logos/js.svg" alt="JavaScript"></li> -->
                 <!-- <li><img id="logos-languages" title="languages de programmation" src="./content/logos/php.svg" alt="PHP"></li>
                 <li><img id="logos-languages" title="languages de programmation" src="./content/logos/sql.svg" alt="SQL"></li>
                 <li><img id="logos-languages" title="languages de programmation" src="./content/logos/nodejs.svg" alt="NodeJS"></li>
@@ -117,6 +156,7 @@
             </div>
           </table>
 
+          <!-- Game fight -->
           <table class="table table-bordered table-striped table-condensed">
             <div class="col-md-offset-0 col-md-6 col-xs-offset-0">
                 <div class="col-md-12 col-xs-offset-0 col-sm-offset-0">
@@ -126,18 +166,64 @@
 
             <div class="col-md-offset-0 col-md-6 col-xs-offset-1">
               <dt>Game Fight</dt>
-              <dd>Jeux de combat</dd>
+              <dd>Jeux de combat || Utilisation du Local Storage</dd>
               <ul class="list-inline list-unstyled">
               <li><img id="logos-languages" title="languages de programmation" src="./content/logos/js.svg" alt="JavaScript"></li>
               <li><img id="logos-languages" title="languages de programmation" src="./content/logos/html-5.svg" alt="HTML5"></li>
               <li><img id="logos-languages" title="languages de programmation" src="./content/logos/css-3.svg" alt="CSS3"></li>
-              <li><img id="logos-languages" title="languages de programmation" src="./content/logos/php.svg" alt="PHP"></li>
+              <!-- <li><img id="logos-languages" title="languages de programmation" src="./content/logos/php.svg" alt="PHP"></li>
               <li><img id="logos-languages" title="languages de programmation" src="./content/logos/sql.svg" alt="SQL"></li>
               <li><img id="logos-languages" title="languages de programmation" src="./content/logos/nodejs.svg" alt="NodeJS"></li>
-              <li><img id="logos-languages" title="languages de programmation" src="./content/logos/json.svg" alt="JSON"></li>
+              <li><img id="logos-languages" title="languages de programmation" src="./content/logos/json.svg" alt="JSON"></li> -->
             </ul>
             </div>
           </table>
+
+          <!-- NodeJs Express -->
+          <table class="table table-bordered table-striped table-condensed">
+            <div class="col-md-offset-0 col-md-6 col-xs-offset-0">
+                <div class="col-md-12 col-xs-offset-0 col-sm-offset-0">
+                  <img class="preview-project" src="./content/photo/project/projet-tchat.png" alt="image projet" />
+                </div>
+            </div>
+
+            <div class="col-md-offset-0 col-md-6 col-xs-offset-1">
+              <dt>Tchat</dt>
+              <dd>PDO + connexion à la BDD SQL pour le stockage</dd>
+              <ul class="list-inline list-unstyled">
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/js.svg" alt="JavaScript"></li>
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/sql.svg" alt="SQL"></li>
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/html-5.svg" alt="HTML5"></li>
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/css-3.svg" alt="CSS3"></li>
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/php.svg" alt="PHP"></li>
+                <!-- <li><img id="logos-languages" title="languages de programmation" src="./content/logos/nodejs.svg" alt="NodeJS"></li>
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/json.svg" alt="JSON"></li> -->
+              </ul>
+            </div>
+          </table>
+
+          <!-- Projet Chat -->
+          <table class="table table-bordered table-striped table-condensed">
+            <div class="col-md-offset-0 col-md-6 col-xs-offset-0">
+                <div class="col-md-12 col-xs-offset-0 col-sm-offset-0">
+                  <img class="preview-project" src="./content/photo/project/nodejs-express.png" alt="image projet" />
+                </div>
+            </div>
+
+            <div class="col-md-offset-0 col-md-6 col-xs-offset-1">
+              <dt>Node Meetup</dt>
+              <dd>Post des évenements || travail collaboratif</dd>
+              <ul class="list-inline list-unstyled">
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/js.svg" alt="JavaScript"></li>
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/html-5.svg" alt="HTML5"></li>
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/css-3.svg" alt="CSS3"></li>
+                <!-- <li><img id="logos-languages" title="languages de programmation" src="./content/logos/php.svg" alt="PHP"></li> -->
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/sql.svg" alt="SQL"></li>
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/nodejs.svg" alt="NodeJS"></li>
+                <li><img id="logos-languages" title="languages de programmation" src="./content/logos/json.svg" alt="JSON"></li>
+              </ul>
+            </div>
+          </table>   
         </div>
       </div>
     </div>
@@ -152,6 +238,8 @@
 
     <!-- Volet déroulant js -->
     <script src="./script.js"></script>
+    <!-- click projects -->
+    <script src="./project.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
