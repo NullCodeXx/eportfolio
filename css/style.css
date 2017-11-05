@@ -1,3 +1,10 @@
+/* 
+Bug à corriger 
+Search key
+line : 397 || ::-webkit-input-placeholder
+line : 446 || .form-control
+*/
+
 body {
     margin: 0;
     padding: 0;
@@ -90,6 +97,57 @@ body {
 .header {}
 
 
+/* Color link compétence */
+
+.colorSimplon {
+    color: #fff;
+}
+
+.colorSimplon:hover {
+    color: rgb(223, 74, 228);
+}
+
+.colorGithub {
+    color: #fff;
+}
+
+.colorGithub:hover {
+    color: rgb(224, 191, 44);
+}
+
+.colorLinkedin {
+    color: #fff;
+}
+
+.colorLinkedin:hover {
+    color: rgb(40, 129, 202);
+}
+
+.colorTwitter {
+    color: #fff;
+}
+
+.colorTwitter:hover {
+    color: rgb(33, 161, 54);
+}
+
+.colorGoogle {
+    color: #fff;
+}
+
+.colorGoogle:hover {
+    color: rgb(167, 39, 39);
+}
+
+.colorEmail {
+    color: #fff;
+}
+
+.colorEmail:hover {
+    color: rgb(14, 177, 206);
+}
+
+
 /* Div for project */
 
 #contProject {
@@ -109,6 +167,45 @@ body {
     margin: auto;
     color: white;
     border: 1px solid white;
+}
+
+
+/* btn list projects hover */
+
+.show-on-hover:hover>ul.dropdown-menu {
+    display: block;
+}
+
+
+/* project hover main ul */
+
+#hover-project-hover-main {
+    background-color: rgb(14, 44, 42);
+}
+
+
+/* project hover list li */
+
+.hover-project-hover-list {
+    background-color: rgb(14, 44, 42);
+}
+
+#hover-paraf-project-list {
+    color: #fff;
+    text-align: center;
+    font-family: "GloriaHallelujah.ttf";
+}
+
+#hover-a-project-list {
+    text-decoration: none;
+    color: #fff;
+    font-family: "GloriaHallelujah.ttf";
+}
+
+#hover-a-project-list:hover {
+    text-decoration: none;
+    color: #129888;
+    font-family: "GloriaHallelujah.ttf";
 }
 
 .nav-header-color {
@@ -303,14 +400,133 @@ body {
 }
 
 
-/* Footer */
+/* Formulaire contact */
 
-.black {
-    height: 15em;
-    background-color: #191919;
+
+/*Contact sectiom*/
+
+.header-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 20px;
 }
 
-.grey {
-    height: 15em;
-    background-color: #232323;
+.content-header {
+    color: #242424;
+    font-family: "GloriaHallelujah.ttf";
+    font-size: 45px;
+}
+
+.section-content {
+    text-align: center;
+}
+
+.contact {
+    width: 100%;
+    width: 100vw;
+    height: auto;
+    padding: 20px;
+    margin: 40px;
+    font-family: "GloriaHallelujah.ttf", 'Teko', sans-serif;
+}
+
+.contact-section {
+    padding-top: 40px;
+}
+
+.contact-section .col-md-6 {
+    width: 50%;
+}
+
+.form-line {
+    border-right: 2px solid #129888;
+}
+
+
+/* placeholder color text */
+
+::-webkit-input-placeholder {
+    /* WebKit, Blink, Edge */
+    color: #129888;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #129888;
+    opacity: 1;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #129888;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #129888;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #129888;
+}
+
+
+/* View class in inspector element */
+
+.form-control::-webkit-input-placeholder {
+    color: #d80f0f;
+}
+
+
+/* End of placeholder */
+
+.form-group {
+    margin-top: 10px;
+}
+
+label {
+    font-size: 1.3em;
+    line-height: 1em;
+    font-weight: normal;
+}
+
+.form-control {
+    font-size: 1.3em;
+    color: #080808;
+    /* Input border est pas pris en compte à coriger */
+    border: none;
+    border-left: 1px solid rgb(14, 44, 42);
+}
+
+textarea.form-control {
+    height: 135px;
+    /* margin-top: px;*/
+}
+
+.submit {
+    font-size: 1.1em;
+    float: right;
+    width: 150px;
+    background-color: transparent;
+    color: #fff;
+}
+
+
+/* Footer */
+
+.reseaux {
+    display: flex;
+    justify-content: center;
+}
+
+.author2017 {
+    font-size: 8px;
+    font-family: "GloriaHallelujah.ttf";
+    color: #129888;
+    text-align: center;
 }

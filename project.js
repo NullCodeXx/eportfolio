@@ -1,4 +1,7 @@
-document.querySelector("#displayProject").addEventListener("click", function(e) {
+let button = document.querySelector("#display-project");
+button.style.backgroundColor = "transparent";
+button.style.border = "transparent";
+button.addEventListener("click", function(e) {
     e.preventDefault();
     let form = document.querySelector("#listeProject");
     formcont = document.querySelector("#contProject").style.display = "flex";
