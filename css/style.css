@@ -148,6 +148,14 @@ body {
 }
 
 
+/* Hover contact list center */
+
+.list-center {
+    display: flex;
+    justify-content: center;
+}
+
+
 /* Div for project */
 
 #contProject {
@@ -274,11 +282,27 @@ body {
 
 .project-header {
     background-color: #129888;
+    border: 1px solid lime;
+    animation: eventjs 0.000000000000000000000000001s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 .name-project {
     color: #242424;
     font-family: "GloriaHallelujah.ttf";
+}
+
+@keyframes eventjs {
+    0% {
+        border: 5px solid lime;
+    }
+    50% {
+        border: 5px solid black;
+    }
+    100% {
+        border: 5px solid black;
+    }
 }
 
 .project-body {

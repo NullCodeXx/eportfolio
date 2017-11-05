@@ -106,12 +106,12 @@ foreach($all as $f) {
                           <ul class="dropdown-menu list-inline list-unstyled" id="hover-project-hover-main" role="menu">
                             <font style="vertical-align: inherit;color: #fff;font-family: 'GloriaHallelujah.ttf';letter-spacing: 2px;" onmouseover="this.style.backgroundColor='rgb(14, 44, 42);';this.style.color='#129888';" 
                             onmouseout="this.style.backgroundColor='rgb(14,44,42)';this.style.color='#fff';">
-                              <li><a href="https://talents.simplon.co/#!/login" id="hover-a-project-list"><span class="colorSimplon">Simplon</span></a></li>
-                              <li><a href="https://github.com/djaafarcode" id="hover-a-project-list"><span class="colorGithub">Github</span></a></li>
-                              <li><a href="https://www.linkedin.com/in/djaafar-boumaza-84a867146/" id="hover-a-project-list"><span class="colorLinkedin">Linkedin</span></a></li>
-                              <li><a href="https://twitter.com/djaafarcode?lang=fr" id="hover-a-project-list"><span class="colorTwitter">Twitter</span></a></li>
-                              <li><a href="https://plus.google.com/102441240849299749508" id="hover-a-project-list"><span class="colorGoogle">Google+</span></a></li>
-                              <li><a href="mailto:code-db_@outlook.fr" id="hover-a-project-list"><span class="colorEmail">E-mail</span></a></li>
+                              <li class="list-center"><a href="https://talents.simplon.co/#!/login" id="hover-a-project-list"><span class="colorSimplon">Simplon</span></a></li>
+                              <li class="list-center"><a href="https://github.com/djaafarcode" id="hover-a-project-list"><span class="colorGithub">Github</span></a></li>
+                              <li class="list-center"><a href="https://www.linkedin.com/in/djaafar-boumaza-84a867146/" id="hover-a-project-list"><span class="colorLinkedin">Linkedin</span></a></li>
+                              <li class="list-center"><a href="https://twitter.com/djaafarcode?lang=fr" id="hover-a-project-list"><span class="colorTwitter">Twitter</span></a></li>
+                              <li class="list-center"><a href="https://plus.google.com/102441240849299749508" id="hover-a-project-list"><span class="colorGoogle">Google+</span></a></li>
+                              <li class="list-center"><a href="mailto:code-db_@outlook.fr" id="hover-a-project-list"><span class="colorEmail">E-mail</span></a></li>
                             </font>
                           </ul>
                         </li>
@@ -244,10 +244,32 @@ foreach($all as $f) {
                 <li><img id="logos-languages" title="HTML5" src="./content/logos/html-5.svg" alt="HTML5"></li>
                 <li><img id="logos-languages" title="CSS3" src="./content/logos/css-3.svg" alt="CSS3"></li>
                 <li><img id="logos-languages" title="PHP7" src="./content/logos/php.svg" alt="PHP"></li>
+                <li><img id="logos-languages" title="BOOTSTRAP" src="./content/logos/bootstrap.svg" alt="Bootstrap"></li>
               </ul>
             </div>
           </table>
 
+          <!-- Bataille Navale -->
+          <table class="table table-bordered table-striped table-condensed">
+            <div class="col-md-offset-0 col-md-6 col-xs-offset-0">
+                <div class="col-md-12 col-xs-offset-0 col-sm-offset-0">
+                <a href="projects/project-bataille-navale/view" title="NodeJs"><img class="preview-project" src="./content/photo/project/bataille.png" alt="image projet" /></a>
+                </div>
+            </div>
+
+            <div class="col-md-offset-0 col-md-6 col-xs-offset-1">
+              <dt>Bataille navale </dt>
+              <dd>En cours…</dd>
+              <ul class="list-inline list-unstyled">
+                <li><img id="logos-languages" title="JavaScript" src="./content/logos/js.svg" alt="JavaScript"></li>
+                <li><img id="logos-languages" title="SQL" src="./content/logos/sql.svg" alt="SQL"></li>
+                <li><img id="logos-languages" title="HTML5" src="./content/logos/html-5.svg" alt="HTML5"></li>
+                <li><img id="logos-languages" title="CSS3" src="./content/logos/css-3.svg" alt="CSS3"></li>
+                <li><img id="logos-languages" title="PHP7" src="./content/logos/php.svg" alt="PHP"></li>
+              </ul>
+            </div>
+          </table>
+          
           <!-- Projet Chat -->
           <table class="table table-bordered table-striped table-condensed">
             <div class="col-md-offset-0 col-md-6 col-xs-offset-0">
@@ -266,6 +288,7 @@ foreach($all as $f) {
                 <li><img id="logos-languages" title="SQL" src="./content/logos/sql.svg" alt="SQL"></li>
                 <li><img id="logos-languages" title="NodeJS" src="./content/logos/nodejs.svg" alt="NodeJS"></li>
                 <li><img id="logos-languages" title="JSON" src="./content/logos/json.svg" alt="JSON"></li>
+                <li><img id="logos-languages" title="BOOTSTRAP" src="./content/logos/bootstrap.svg" alt="Bootstrap"></li>
               </ul>
             </div>
           </table>
@@ -305,6 +328,7 @@ foreach($all as $f) {
                 <li><img id="logos-languages" title="CSS3" src="./content/logos/css-3.svg" alt="CSS3"></li>
                 <li><img id="logos-languages" title="PHP7" src="./content/logos/php.svg" alt="PHP"></li>
                 <li><img id="logos-languages" title="JSON" src="./content/logos/json.svg" alt="JSON"></li>
+                <li><img id="logos-languages" title="BOOTSTRAP" src="./content/logos/bootstrap.svg" alt="Bootstrap"></li>
               </ul>
             </div>
           </table>
