@@ -226,12 +226,13 @@ body {
 }
 
 .block-profil {
-    height: 50em;
+    height: 45em;
     background-color: rgb(255, 255, 255);
     border-radius: 2px;
     margin-top: -5%;
     padding: 1%;
     position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .photo-profil {
@@ -254,7 +255,7 @@ body {
 }
 
 .block-biographie {
-    height: 20em;
+    height: 18em;
     overflow: scroll;
     color: #6d6963;
     font-family: "GloriaHallelujah.ttf";
@@ -267,14 +268,15 @@ body {
 }
 
 .container-block-project {
-    height: 35em;
+    height: 40em;
     background-color: rgb(14, 44, 42);
     border-radius: 2px;
     overflow: scroll;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .block-project {
-    height: 30em;
+    height: 34em;
     overflow: scroll;
     font-family: "GloriaHallelujah.ttf";
     letter-spacing: 1px;
@@ -282,10 +284,11 @@ body {
 
 .project-header {
     background-color: #129888;
-    border: 1px solid lime;
-    animation: eventjs 0.000000000000000000000000001s;
+    border-radius: 4px;
+    /* 
+    animation: eventjs 1s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
 }
 
 .name-project {
@@ -293,9 +296,10 @@ body {
     font-family: "GloriaHallelujah.ttf";
 }
 
-@keyframes eventjs {
+
+/* @keyframes eventjs {
     0% {
-        border: 5px solid lime;
+        border: 5px solid rgb(1, 38, 97);
     }
     50% {
         border: 5px solid black;
@@ -303,7 +307,7 @@ body {
     100% {
         border: 5px solid black;
     }
-}
+} */
 
 .project-body {
     color: #fff;
@@ -453,7 +457,6 @@ body {
     width: 100vw;
     height: auto;
     padding: 20px;
-    margin: 40px;
     font-family: "GloriaHallelujah.ttf", 'Teko', sans-serif;
 }
 
