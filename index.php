@@ -1,6 +1,4 @@
 <?php
-
-
 $all = scandir('projects');
 $projects = [];
 
@@ -358,65 +356,13 @@ foreach($all as $f) {
     </div>
   </section>
 
-  <!-- Form contact -->
-  <section class="container-fluid contact">
-   <!-- Header form contact -->
-   <div class="container col-md-offset-4 col-md-4 col-md-offset-4 header-form">
-      <h2 id="contactme">Contactez-moi</h2>
-      <hr>
-      <p>Vous avez des questions ?
-        <br>
-        n'hésitez pas à me contacter.
-      </p>
-    </div>
+ 
 
-    <div class="col-md-offset-2 col-md-8 col-md-offset-2">
-      <form action="https://www.google.fr" method="POST">
-        <div class="col-md-6 form-line">
-          <div class="form-group">
-            <label for="nom">Nom</label>
-            <input type="text" class="form-control" id="nom" placeholder="Nom">
-          </div>
-          <div class="form-group">
-            <label for="email">Adresse E-mail</label>
-            <input type="email" class="form-control" id="email" placeholder="E-mail">
-          </div>	
-          <div class="form-group">
-            <label for="telephone">Numéro mobile/fix</label>
-            <input type="tel" class="form-control" id="telephone" placeholder="N° mobile/fix">
-          </div>
-        </div>
-        
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for ="description">Message</label>
-            <textarea  class="form-control" id="description" placeholder="Votre message"></textarea>
-          </div>
-          <div>
-			  		<button type="submit" class="btn btn-default submit" style="background-color: rgb(14,44,42);color: #129888;text-shadow: 0px 0px 0px;"onmouseover="this.style.backgroundColor='#fff';this.style.color='#000';" 
-            onmouseout="this.style.backgroundColor='rgb(14,44,42)';this.style.color='#129888';"><i class="fa fa-paper-plane" aria-hidden="true"></i>Envoyer le message</button>
-			  	</div>
-				</div>
-			</form>
-    </div>
-  </section>
+<?php
+include_once "form.php";
+include_once "footer.php";
 
-  <footer class="container-fluid">
-      <div class="row">
-        <div class="col-md-offset-4 col-md-4 col-md-offset-4">
-            <!-- <ul class="list-inline list-unstyled reseaux">
-              <li><a href="https://github.com/djaafarcode" target="_blank" title="Voir mes projets Github"><img id="logos-reseaux" src="./content/logos/github.svg" alt="Logo Github"></a></li>
-              <li><a href="https://plus.google.com/102441240849299749508" target="_blank" title="Visitez mon compte Google Plus"><img id="logos-reseaux" src="./content/logos/google-plus.svg" alt="Logo Google Plus"></a></li>
-              <li><a href="https://www.linkedin.com/in/djaafar-boumaza-84a867146/" target="_blank" title="Voir mon profil Linkedin"><img id="logos-reseaux" src="./content/logos/linkedin.svg" alt="Logo Linkedin"></a></li>
-              <li><a href="https://twitter.com/djaafarcode?lang=fr" target="_blank" title="Visitez mon twitter"><img id="logos-reseaux" src="./content/logos/twitter.svg" alt="Logo Twitter"></a></li>
-              <li><a href="mailto:code-db_@outlook.fr" target="_blank" title="Me contacter"><img id="logos-reseaux" src="./content/logos/mail.svg" alt="Logo E-Mail"></a></li>
-              <li><a href="content/documents/Djaafar_BOUMAZA.pdf" target="_blank" title="Télécharger mon CV"><img id="logos-reseaux" src="./content/logos/download.png" alt="Affiche mon CV"></a></li>
-            </ul> -->
-            <span class="col-md-offset-2 col-md-8 col-md-offset-2 col-xs-offset-2 col-xs-8 col-xs-offset-2 author2017">Djaâfar .BOUMAZA © 2017 // Développeur web junior</span>
-        </div>
-      </div>
-    </footer>
-
+?>
     <!-- Volet déroulant js -->
     <script src="./script.js"></script>
     <!-- click projects -->
